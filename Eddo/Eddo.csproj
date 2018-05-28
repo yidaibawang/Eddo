@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E367DA67-B4D5-473B-9F53-80B08672626D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eddo</RootNamespace>
+    <AssemblyName>Eddo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JetBrains.Annotations, Version=11.1.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.11.1.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Concurrent, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.Concurrent.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Enlightenment, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.Enlightenment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applications\Services\ApplicationService.cs" />
+    <Compile Include="Applications\Services\EddoServiceBase.cs" />
+    <Compile Include="Applications\Services\IApplicationService.cs" />
+    <Compile Include="Auditing\IClientInfoProvider.cs" />
+    <Compile Include="Auditing\NullClientInfoProvider.cs" />
+    <Compile Include="Authorization\AuthorizationHelper.cs" />
+    <Compile Include="Authorization\IAuthorizationHelper.cs" />
+    <Compile Include="Authorization\IEddoAuthorizeAttribute.cs" />
+    <Compile Include="Caching\CachBase.cs" />
+    <Compile Include="Caching\CacheExtensions.cs" />
+    <Compile Include="Caching\CacheLevel.cs" />
+    <Compile Include="Caching\CacheManager.cs" />
+    <Compile Include="Caching\CacheManagerExtensions.cs" />
+    <Compile Include="Caching\CacheProviderBase.cs" />
+    <Compile Include="Caching\ICache.cs" />
+    <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="Caching\ICacheProvider.cs" />
+    <Compile Include="Caching\ITypedCache.cs" />
+    <Compile Include="Caching\RuntimeMemoryCache.cs" />
+    <Compile Include="Caching\RuntimeMemoryCacheProvider.cs" />
+    <Compile Include="Caching\TypedCache.cs" />
+    <Compile Include="Caching\TypedCacheExtensions.cs" />
+    <Compile Include="Check.cs" />
+    <Compile Include="Collections\Extensions\CollectionExtensions.cs" />
+    <Compile Include="Collections\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Collections\Extensions\ListExtensions.cs" />
+    <Compile Include="Collections\Extensions\QueryableExtension.cs" />
+    <Compile Include="Collections\Extensions\QueryableExtensions.cs" />
+    <Compile Include="Configuration\DictionaryBasedConfig.cs" />
+    <Compile Include="Configuration\EventBusConfiguration.cs" />
+    <Compile Include="Configuration\IDictionaryBasedConfig.cs" />
+    <Compile Include="Configuration\IEventBusConfiguration.cs" />
+    <Compile Include="Configuration\IModuleConfigurations.cs" />
+    <Compile Include="Configuration\IPhoenixStartupConfiguration.cs" />
+    <Compile Include="Configuration\ModuleConfigurations.cs" />
+    <Compile Include="Configuration\PhoenixStartupConfiguration.cs" />
+    <Compile Include="Configuration\Startup\EddoStartupConfigurationExtensions.cs" />
+    <Compile Include="Dependency\BasicConventionalRegistrar.cs" />
+    <Compile Include="Dependency\ConventionalRegistrationConfig.cs" />
+    <Compile Include="Dependency\ConventionalRegistrationContext.cs" />
+    <Compile Include="Dependency\DependencyLifeStyle.cs" />
+    <Compile Include="Dependency\DisposableDependencyObjectWrapper.cs" />
+    <Compile Include="Dependency\IConventionalDependencyRegistrar.cs" />
+    <Compile Include="Dependency\IConventionalRegistrationContext.cs" />
+    <Compile Include="Dependency\IDependency.cs" />
+    <Compile Include="Dependency\IDisposableDependencyObjectWrapper.cs" />
+    <Compile Include="Dependency\IDisposableDependencyObjectWrapperT.cs" />
+    <Compile Include="Dependency\IIocManager.cs" />
+    <Compile Include="Dependency\IIocRegistrar.cs" />
+    <Compile Include="Dependency\IIocResolve.cs" />
+    <Compile Include="Dependency\Installer\EddoCoreInstaller.cs" />
+    <Compile Include="Dependency\IocManager.cs" />
+    <Compile Include="Dependency\IocRegistrarExtensions.cs" />
+    <Compile Include="Dependency\IocResolverExtensions.cs" />
+    <Compile Include="Dependency\IScopedIocResolver.cs" />
+    <Compile Include="Dependency\IShouldInitialize.cs" />
+    <Compile Include="Dependency\ISingletonDependency.cs" />
+    <Compile Include="Dependency\ITransientDependency.cs" />
+    <Compile Include="Dependency\ScopedIocResolver.cs" />
+    <Compile Include="Dependency\SingletonDependency.cs" />
+    <Compile Include="Domain\Entities\AggregateRoot.cs" />
+    <Compile Include="Domain\Entities\Auditing\AuditFull.cs" />
+    <Compile Include="Domain\Entities\Auditing\CreationAuditedEntity.cs" />
+    <Compile Include="Domain\Entities\Auditing\ICreatAudit.cs" />
+    <Compile Include="Domain\Entities\Auditing\ICreationAudited.cs" />
+    <Compile Include="Domain\Entities\Caching\EntityCache.cs" />
+    <Compile Include="Domain\Entities\Caching\IEntityCache.cs" />
+    <Compile Include="Domain\Entities\Entity.cs" />
+    <Compile Include="Domain\Entities\EntityHelper.cs" />
+    <Compile Include="Domain\Entities\IAggregateRoot.cs" />
+    <Compile Include="Domain\Entities\ICreatedTime.cs" />
+    <Compile Include="Domain\Entities\IDeletionTime.cs" />
+    <Compile Include="Domain\Entities\IEntity.cs" />
+    <Compile Include="Domain\Entities\IEntityOfTPrimaryKey.cs" />
+    <Compile Include="Domain\Entities\IMayHaveTenant.cs" />
+    <Compile Include="Domain\Entities\IOrderNo.cs" />
+    <Compile Include="Domain\Entities\ISoftDelete.cs" />
+    <Compile Include="Domain\Repository\EddoRepositoryBase.cs" />
+    <Compile Include="Domain\Repository\ICriteria.cs" />
+    <Compile Include="Domain\Repository\IPager.cs" />
+    <Compile Include="Domain\Repository\IPagerBase.cs" />
+    <Compile Include="Domain\Repository\IQueryBase.cs" />
+    <Compile Include="Domain\Repository\IReadableRepository.cs" />
+    <Compile Include="Domain\Repository\IRepository.cs" />
+    <Compile Include="Domain\Repository\IRepositoryWithEntity.cs" />
+    <Compile Include="Domain\Repository\Pager.cs" />
+    <Compile Include="Domain\Repository\PagerList.cs" />
+    <Compile Include="Domain\Services\IDomainService.cs" />
+    <Compile Include="Domain\UnitOfWorks\ConnectionStringResolveArgs.cs" />
+    <Compile Include="Domain\UnitOfWorks\CurrentUnitOfWorkProvider.cs" />
+    <Compile Include="Domain\UnitOfWorks\DefaultConnectionStringResolver.cs" />
+    <Compile Include="Domain\UnitOfWorks\IConnectionStringResolver.cs" />
+    <Compile Include="Domain\UnitOfWorks\IUnitOfWork.cs" />
+    <Compile Include="Domain\UnitOfWorks\IUnitOfWorkCompleteHandle.cs" />
+    <Compile Include="Domain\UnitOfWorks\IUnitOfWorkDefaultOptions.cs" />
+    <Compile Include="Domain\UnitOfWorks\IUnitOfWorkManage.cs" />
+    <Compile Include="Domain\UnitOfWorks\IUnitOfWorkProvider.cs" />
+    <Compile Include="Domain\UnitOfWorks\UnitOfWorkBase.cs" />
+    <Compile Include="Domain\UnitOfWorks\UnitOfWorkDefaultOptions.cs" />
+    <Compile Include="Domain\UnitOfWorks\UnitOfWorkFailedEventArgs.cs" />
+    <Compile Include="Domain\UnitOfWorks\UnitOfWorkManage.cs" />
+    <Compile Include="Domain\UnitOfWorks\UnitOfWorkOptions.cs" />
+    <Compile Include="EddoBootstrapper.cs" />
+    <Compile Include="EddoException.cs" />
+    <Compile Include="EddoKernelModule.cs" />
+    <Compile Include="Events\Entities\DomainEventEntry.cs" />
+    <Compile Include="Events\Entities\EntityChangedEventData.cs" />
+    <Compile Include="Events\Entities\EntityChangeEntry.cs" />
+    <Compile Include="Events\Entities\EntityChangeEventHelper.cs" />
+    <Compile Include="Events\Entities\EntityChangeReport.cs" />
+    <Compile Include="Events\Entities\EntityChangeType.cs" />
+    <Compile Include="Events\Entities\EntityChangingEventData.cs" />
+    <Compile Include="Events\Entities\EntityCreatedEventData.cs" />
+    <Compile Include="Events\Entities\EntityCreatingEventData.cs" />
+    <Compile Include="Events\Entities\EntityDeletedEventData.cs" />
+    <Compile Include="Events\Entities\EntityDeletingEventData.cs" />
+    <Compile Include="Events\Entities\EntityEventData.cs" />
+    <Compile Include="Events\Entities\EntityUpdatedEventData.cs" />
+    <Compile Include="Events\Entities\EntityUpdatingEventData.cs" />
+    <Compile Include="Events\Entities\IEntityChangeEventHelper.cs" />
+    <Compile Include="Events\Entities\IEventDataWithInheritableGenericArgument.cs" />
+    <Compile Include="Events\Entities\NullEntityChangeEventHelper.cs" />
+    <Compile Include="Events\EventBus.cs" />
+    <Compile Include="Events\EventBusInstaller.cs" />
+    <Compile Include="Events\EventData.cs" />
+    <Compile Include="Events\EventStore\IEventStore.cs" />
+    <Compile Include="Events\EventStore\InMemoryEventStore.cs" />
+    <Compile Include="Events\Handler\ActionEventHandler.cs" />
+    <Compile Include="Events\IEventBus.cs" />
+    <Compile Include="Events\IEventData.cs" />
+    <Compile Include="Events\Handler\IEventHandler.cs" />
+    <Compile Include="Events\NullEventBus.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Extensions\EventHandlerExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="IGuidGenerator.cs" />
+    <Compile Include="IO\DirectoryHelper.cs" />
+    <Compile Include="IO\Extensions\StreamExtensions.cs" />
+    <Compile Include="IO\FileHelper.cs" />
+    <Compile Include="Json\EddoDateTimeConverter.cs" />
+    <Compile Include="Json\JsonExtensions.cs" />
+    <Compile Include="Json\JsonSerializationHelper.cs" />
+    <Compile Include="Linq\IAsyncQueryableExecuter.cs" />
+    <Compile Include="Linq\NullAsyncQueryableExecuter.cs" />
+    <Compile Include="Linq\QueryableExtensions.cs" />
+    <Compile Include="Logging\IHasLogSeverity.cs" />
+    <Compile Include="Logging\LoggerExtensions.cs" />
+    <Compile Include="Logging\LogHelper.cs" />
+    <Compile Include="Logging\LogSeverity.cs" />
+    <Compile Include="Modules\DefaultModuleFinder.cs" />
+    <Compile Include="Modules\DependsOnAttribute.cs" />
+    <Compile Include="Modules\EddoModule.cs" />
+    <Compile Include="Modules\EddoModuleInfo.cs" />
+    <Compile Include="Modules\IModuleFinder.cs" />
+    <Compile Include="Modules\IEddoModuleManagerr.cs" />
+    <Compile Include="Modules\EddoModuleCollection.cs" />
+    <Compile Include="Modules\EddoModuleManager.cs" />
+    <Compile Include="MultiTenancy\MultiTenancySideAttribute.cs" />
+    <Compile Include="MultiTenancy\MultiTenancySides.cs" />
+    <Compile Include="ObjectMapper\IObjectMapper.cs" />
+    <Compile Include="ObjectMapper\NullObjectMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\CurrentDomainAssemblyFinder.cs" />
+    <Compile Include="Reflection\IAssemblyFinder.cs" />
+    <Compile Include="Reflection\ITypeFinder.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Reflection\TypeExtensions.cs" />
+    <Compile Include="Reflection\TypeFinder.cs" />
+    <Compile Include="Resources\Embedded\EmbeddedFilePathHelper.cs" />
+    <Compile Include="Resources\Embedded\EmbeddedResourceItem.cs" />
+    <Compile Include="Resources\Embedded\EmbeddedResourceManager.cs" />
+    <Compile Include="Resources\Embedded\EmbeddedResourcesConfiguration.cs" />
+    <Compile Include="Resources\Embedded\EmbeddedResourceSet.cs" />
+    <Compile Include="Resources\Embedded\IEmbeddedResourceManager.cs" />
+    <Compile Include="Resources\Embedded\IEmbeddedResourcesConfiguration.cs" />
+    <Compile Include="Runtime\EddoClaimTypes.cs" />
+    <Compile Include="Runtime\Session\ClaimsEddoSession.cs" />
+    <Compile Include="Runtime\Session\DefaultPrincipalAccessor.cs" />
+    <Compile Include="Runtime\Session\EddoSessionBase.cs" />
+    <Compile Include="Runtime\Session\IEddoSession.cs" />
+    <Compile Include="Runtime\Session\IPrincipalAccessor.cs" />
+    <Compile Include="Runtime\Session\NullEddoSession.cs" />
+    <Compile Include="Runtime\Validation\EddoValidationException.cs" />
+    <Compile Include="SequentialGuidGenerator.cs" />
+    <Compile Include="Threading\LockExtensions.cs" />
+    <Compile Include="Utils\Common.cs" />
+    <Compile Include="Utils\ConvertHelper.cs" />
+    <Compile Include="Utils\Enum.cs" />
+    <Compile Include="Utils\ExtensionsConvert.cs" />
+    <Compile Include="Utils\NullDisposable.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
