@@ -8,7 +8,8 @@ using System.Collections.Generic;
 namespace Web.Application.Order
 {
     public class OrderInfoAppService : ApplicationService,IOrderInfoAppService
-    {
+    {    
+
         private readonly IRepository<OrderInfo> _orderInfoRepository;
         private readonly IRepository<OrderDetail> _orderDetailRepository;
         public OrderInfoAppService(IRepository<OrderInfo> orderInfoRepository, IRepository<OrderDetail> orderDetailRepository)
