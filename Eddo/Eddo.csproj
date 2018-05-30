@@ -176,8 +176,10 @@
     <Compile Include="Domain\Repository\IReadableRepository.cs" />
     <Compile Include="Domain\Repository\IRepository.cs" />
     <Compile Include="Domain\Repository\IRepositoryWithEntity.cs" />
+    <Compile Include="Domain\Repository\ISqlExecuter.cs" />
     <Compile Include="Domain\Repository\Pager.cs" />
     <Compile Include="Domain\Repository\PagerList.cs" />
+    <Compile Include="Domain\Repository\SqlExecuterbase.cs" />
     <Compile Include="Domain\Services\IDomainService.cs" />
     <Compile Include="Domain\UnitOfWorks\ConnectionStringResolveArgs.cs" />
     <Compile Include="Domain\UnitOfWorks\CurrentUnitOfWorkProvider.cs" />

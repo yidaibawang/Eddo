@@ -2,10 +2,6 @@
 using Eddo.Domain.UnitOfWorks;
 using Eddo.ObjectMapper;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eddo.Applications.Services
 {
