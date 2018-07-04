@@ -16,6 +16,7 @@ namespace Eddo.EntityFramework.Uw
             if (unitOfWork == null)
             {
                 throw new ArgumentNullException("unitOfWork");
+
             }
 
             if (!(unitOfWork is EfUnitOfWork))
