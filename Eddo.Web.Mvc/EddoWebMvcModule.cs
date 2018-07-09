@@ -19,6 +19,7 @@ namespace Eddo.Web.Mvc
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
 
             ControllerBuilder.Current.SetControllerFactory(new WindsorControllerFactory(IocManager));
+            GlobalFilters.Filters.Add(IocManager.Resolve<EddoHandleErrorAttribute>());
         }
     }
 }

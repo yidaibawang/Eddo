@@ -53,9 +53,14 @@
     <Compile Include="Authorize\EddoMvcAuthorizeFilter.cs" />
     <Compile Include="Controllers\ControllerConventionalRegistrar.cs" />
     <Compile Include="Controllers\EddoController.cs" />
+    <Compile Include="Controllers\EddoHandleErrorAttribute.cs" />
     <Compile Include="EddoWebMvcModule.cs" />
     <Compile Include="Extensions\HtmlHelperResourceExtensions.cs" />
     <Compile Include="Helpers\MethodInfoHelper.cs" />
+    <Compile Include="Models\ErrorViewModel.cs" />
+    <Compile Include="Models\ModelStateExtensions.cs" />
+    <Compile Include="Models\MvcAjaxResponse.cs" />
+    <Compile Include="Models\MvcAjaxResponseOfTResult..cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\WindsorControllerFactory.cs" />
     <Compile Include="Resources\EmbeddedResourceHttpHandler.cs" />

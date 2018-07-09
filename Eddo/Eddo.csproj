@@ -97,6 +97,8 @@
     <Compile Include="Auditing\IClientInfoProvider.cs" />
     <Compile Include="Auditing\NullClientInfoProvider.cs" />
     <Compile Include="Authorization\AuthorizationHelper.cs" />
+    <Compile Include="Authorization\EddoAuthorizationException.cs" />
+    <Compile Include="Authorization\EddoAuthorizeAttribute.cs" />
     <Compile Include="Authorization\IAuthorizationHelper.cs" />
     <Compile Include="Authorization\IEddoAuthorizeAttribute.cs" />
     <Compile Include="Caching\CachBase.cs" />
@@ -198,6 +200,7 @@
     <Compile Include="EddoBootstrapper.cs" />
     <Compile Include="EddoException.cs" />
     <Compile Include="EddoKernelModule.cs" />
+    <Compile Include="Events\EddoHandledExceptionData.cs" />
     <Compile Include="Events\Entities\DomainEventEntry.cs" />
     <Compile Include="Events\Entities\EntityChangedEventData.cs" />
     <Compile Include="Events\Entities\EntityChangeEntry.cs" />
@@ -212,6 +215,7 @@
     <Compile Include="Events\Entities\EntityEventData.cs" />
     <Compile Include="Events\Entities\EntityUpdatedEventData.cs" />
     <Compile Include="Events\Entities\EntityUpdatingEventData.cs" />
+    <Compile Include="Events\ExceptionData.cs" />
     <Compile Include="Events\Entities\IEntityChangeEventHelper.cs" />
     <Compile Include="Events\Entities\IEventDataWithInheritableGenericArgument.cs" />
     <Compile Include="Events\Entities\NullEntityChangeEventHelper.cs" />
@@ -279,6 +283,7 @@
     <Compile Include="Runtime\Validation\EddoValidationException.cs" />
     <Compile Include="SequentialGuidGenerator.cs" />
     <Compile Include="Threading\LockExtensions.cs" />
+    <Compile Include="UI\UserFriendlyException.cs" />
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\ConvertHelper.cs" />
     <Compile Include="Utils\Enum.cs" />

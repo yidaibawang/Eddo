@@ -2805,3 +2805,39 @@ DEBUG 2018-07-04 17:03:05,840 [1    ] Eddo.Modules.EddoModuleManager           -
 DEBUG 2018-07-04 17:03:12,913 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 1 classes define auto mapping attributes
 DEBUG 2018-07-04 17:03:12,913 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Web.Core.Entity.UserCacheItem
 WARN  2018-07-04 17:03:21,755 [10   ] in.UnitOfWorks.CurrentUnitOfWorkProvider - There is a unitOfWorkKey in CallContext but the UOW was disposed!
+DEBUG 2018-07-05 10:58:59,322 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-05 10:59:03,145 [1    ] Eddo.Modules.EddoModuleManager           - 发现 12 EddoModule
+DEBUG 2018-07-05 10:59:03,148 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,150 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,150 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,150 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,150 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Web.Application.WebApplicationModule, Web.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Web.Core.WebCoreModule, Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: web.ef.WebDataModule, web.ef, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,151 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: WebDemo.App_Start.WebAppModule, WebDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-05 10:59:03,155 [1    ] Eddo.Modules.EddoModuleManager           - 12 modules loaded.
+DEBUG 2018-07-05 10:59:08,514 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 1 classes define auto mapping attributes
+DEBUG 2018-07-05 10:59:08,514 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Web.Core.Entity.UserCacheItem
+WARN  2018-07-05 10:59:24,405 [8    ] in.UnitOfWorks.CurrentUnitOfWorkProvider - There is a unitOfWorkKey in CallContext but the UOW was disposed!
+DEBUG 2018-07-09 09:36:26,088 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-09 09:36:42,358 [1    ] Eddo.Modules.EddoModuleManager           - 发现 12 EddoModule
+DEBUG 2018-07-09 09:36:42,361 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,362 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,363 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,363 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,363 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,363 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,363 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,364 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,364 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Web.Application.WebApplicationModule, Web.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,364 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Web.Core.WebCoreModule, Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,364 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: web.ef.WebDataModule, web.ef, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,364 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: WebDemo.App_Start.WebAppModule, WebDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-09 09:36:42,368 [1    ] Eddo.Modules.EddoModuleManager           - 12 modules loaded.
+DEBUG 2018-07-09 09:36:46,065 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 1 classes define auto mapping attributes
+DEBUG 2018-07-09 09:36:46,065 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Web.Core.Entity.UserCacheItem
+WARN  2018-07-09 09:36:50,804 [8    ] in.UnitOfWorks.CurrentUnitOfWorkProvider - There is a unitOfWorkKey in CallContext but the UOW was disposed!
