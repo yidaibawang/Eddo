@@ -83,7 +83,7 @@ namespace Eddo.Web.Mvc.Controllers
             // they detect a server error. Setting this property indicates that we
             // want it to try to render ASP.NET MVC's error page instead.
             // context.HttpContext.Response.TrySkipIisCustomErrors = true;
-
+            context.HttpContext.Response.TrySkipIisCustomErrors = true;
             //Trigger an event, so we can register it.
             EventBus.Trigger(new EddoHandledExceptionData(context.Exception));
         }

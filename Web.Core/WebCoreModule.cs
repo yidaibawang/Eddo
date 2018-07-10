@@ -13,6 +13,7 @@ namespace Web.Core
     [DependsOn(typeof(EddoPermissionsModule))]
     public class WebCoreModule:EddoModule
     {
+     
         /// <summary>
         /// 安装处理函数
         /// </summary>

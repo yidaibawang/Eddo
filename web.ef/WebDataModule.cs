@@ -9,6 +9,7 @@ using Eddo.EntityFramework;
 using Web.Core;
 using System.Reflection;
 using Eddo.Permissions.EntityFramework;
+using System.Data.Entity;
 
 namespace web.ef
 {   
@@ -20,6 +21,9 @@ namespace web.ef
         /// </summary>
         public override void PreInitialize()
         {
+            Database.SetInitializer(new CreateDatabaseIfNotExists<WebDBContext>());
+
+            //web.config (or app.config for non-web projects) file should contain a connection string named "Default".
             Configuration.DefaultNameOrConnectionString = "Default";
         }
 

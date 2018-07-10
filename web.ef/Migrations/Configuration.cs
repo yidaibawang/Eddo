@@ -10,6 +10,7 @@ namespace web.ef.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "Eddo";
         }
 
         protected override void Seed(web.ef.WebDBContext context)

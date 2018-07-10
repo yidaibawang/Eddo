@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Eddo.Permissions.Authorization.Users
 {    
-    [Table("UserClaims")]
+    [Table("EddoUserClaims")]
      public  class UserClaim : CreationAuditedEntity<long>, IMayHaveTenant
     {
         public virtual int? TenantId { get; set; }

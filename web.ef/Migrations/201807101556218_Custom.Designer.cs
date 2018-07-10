@@ -7,13 +7,13 @@ namespace web.ef.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitialCreate1 : IMigrationMetadata
+    public sealed partial class Custom : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Custom));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804161429288_InitialCreate1"; }
+            get { return "201807101556218_Custom"; }
         }
         
         string IMigrationMetadata.Source

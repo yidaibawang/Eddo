@@ -3,7 +3,7 @@ using Eddo.Domain.Entities.Auditing;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace Eddo.Permissions.Authorization.Users
 {
-    [Table("UserRoles")]
+    [Table("EddoUserRoles")]
     public  class UserRole:CreationAuditedEntity<long>, IMayHaveTenant
     {   
         /// <summary>

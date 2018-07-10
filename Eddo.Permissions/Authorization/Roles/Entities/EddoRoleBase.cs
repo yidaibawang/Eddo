@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Eddo.Permissions.Authorization.Roles.Entities
 {
-    [Table("Roles")]
+    [Table("EddoRoles")]
     public abstract class EddoRoleBase : Entity<int>, IMayHaveTenant
     {
         /// <summary>

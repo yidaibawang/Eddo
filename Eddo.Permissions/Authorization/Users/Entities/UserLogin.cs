@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Eddo.Permissions.Authorization.Users
 {
     //实体类用于保存通过外部授权服务授权的用户的登入信息
-    [Table("UserLogin")]
+    [Table("EddoUserLogin")]
     public class UserLogin:Entity<long>
     {
         /// <summary>

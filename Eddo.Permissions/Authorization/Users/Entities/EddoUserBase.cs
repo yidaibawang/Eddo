@@ -7,7 +7,7 @@ using Eddo.Permissions.Authorization.Users.Entities;
 
 namespace Eddo.Permissions.Authorization.Users
 {
-    [Table("Users")]
+    [Table("EddoUsers")]
     public abstract class EddoUserBase : Entity<long>
     {
         /// <summary>

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Eddo.Permissions.Authorization.Roles.Entities
 {
-    [Table("Permissions")]
+    [Table("EddoPermissions")]
     public  class PermissionSetting: CreationAuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

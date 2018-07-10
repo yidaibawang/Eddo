@@ -242,6 +242,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="libs\jquery-ajax-form\jquery.form.js" />
+    <Content Include="libs\jquery-uniform\css\uniform.default.css" />
+    <Content Include="libs\jquery-uniform\css\uniform.default.min.css" />
+    <Content Include="libs\jquery-uniform\images\bg-input-focus.png" />
+    <Content Include="libs\jquery-uniform\images\bg-input.png" />
+    <Content Include="libs\jquery-uniform\images\sprite.png" />
+    <Content Include="libs\jquery-uniform\images\sprite_original.png" />
+    <Content Include="libs\jquery-uniform\jquery.uniform.js" />
+    <Content Include="libs\jquery-uniform\jquery.uniform.min.js" />
+    <Content Include="libs\jquery\jquery-migrate.min.js" />
+    <Content Include="libs\jquery\jquery.min.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -253,6 +264,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="libs\jquery-uniform\css\uniform.default.scss" />
+    <Content Include="libs\jquery-uniform\README.md" />
+    <Content Include="libs\jquery\jquery.min.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -265,6 +279,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Account\Login.js" />
     <Content Include="Views\Account\Register.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

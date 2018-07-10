@@ -49,25 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201804161429288_InitialCreate1.cs" />
-    <Compile Include="Migrations\201804161429288_InitialCreate1.Designer.cs">
-      <DependentUpon>201804161429288_InitialCreate1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805101019426_20180510.cs" />
-    <Compile Include="Migrations\201805101019426_20180510.Designer.cs">
-      <DependentUpon>201805101019426_20180510.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805170324583_updatedb.cs" />
-    <Compile Include="Migrations\201805170324583_updatedb.Designer.cs">
-      <DependentUpon>201805170324583_updatedb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805230156310_20180523.cs" />
-    <Compile Include="Migrations\201805230156310_20180523.Designer.cs">
-      <DependentUpon>201805230156310_20180523.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805230719171_order.cs" />
-    <Compile Include="Migrations\201805230719171_order.Designer.cs">
-      <DependentUpon>201805230719171_order.cs</DependentUpon>
+    <Compile Include="Migrations\201807101556218_Custom.cs" />
+    <Compile Include="Migrations\201807101556218_Custom.Designer.cs">
+      <DependentUpon>201807101556218_Custom.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WebDataModule.cs" />
@@ -101,20 +85,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201804161429288_InitialCreate1.resx">
-      <DependentUpon>201804161429288_InitialCreate1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805101019426_20180510.resx">
-      <DependentUpon>201805101019426_20180510.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805170324583_updatedb.resx">
-      <DependentUpon>201805170324583_updatedb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805230156310_20180523.resx">
-      <DependentUpon>201805230156310_20180523.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805230719171_order.resx">
-      <DependentUpon>201805230719171_order.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807101556218_Custom.resx">
+      <DependentUpon>201807101556218_Custom.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

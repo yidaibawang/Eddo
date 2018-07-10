@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EddoPermissionsDbContext.cs" />
+    <Compile Include="EddoPermissionsDbModelBuilderExtensions.cs" />
     <Compile Include="EddoPermissionsEntityFrameworkModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

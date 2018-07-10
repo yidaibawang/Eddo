@@ -8,7 +8,7 @@ namespace Eddo.Permissions.Authorization.Users.Entities
     /// <summary>
     /// 登录信息
     /// </summary>
-    [Table("UserLoginAttempts")]
+    [Table("EddoUserLoginAttempts")]
     public class UserLoginAttempt:Entity<long>, IMayHaveTenant
     {
         public const int MaxTenancyNameLength = 128;

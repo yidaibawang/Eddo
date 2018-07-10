@@ -28,6 +28,11 @@ namespace web.ef
         {
 
         }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+           // modelBuilder.ChangeEddoTablePrefix<Role, User>("Eddo");
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }
