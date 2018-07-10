@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Data.Entity;
 using Eddo.Permissions.IdentityFramework;
-
+using Eddo.UI;
 namespace WebDemo.Controllers
 {
     public class AccountController : EddoController
@@ -95,7 +95,7 @@ namespace WebDemo.Controllers
                     return loginResult;
            
                 default:
-                    throw new Exception(loginResult.Result.ToString());
+                    throw new UserFriendlyException(loginResult.Result.ToString());
             }
 
         }

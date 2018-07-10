@@ -70,18 +70,19 @@ namespace Eddo.Web.Mvc.Controllers
             }
 
             //We handled the exception!
-            context.ExceptionHandled = true;
+   
 
             //Return a special error response to the client.
-            context.HttpContext.Response.Clear();
+    
             context.Result = IsAjaxRequest(context)
                 ? GenerateAjaxResult(context)
                 : GenerateNonAjaxResult(context);
-
+            context.HttpContext.Response.Clear();
+            context.ExceptionHandled = true;
             // Certain versions of IIS will sometimes use their own error page when
             // they detect a server error. Setting this property indicates that we
             // want it to try to render ASP.NET MVC's error page instead.
-            context.HttpContext.Response.TrySkipIisCustomErrors = true;
+            // context.HttpContext.Response.TrySkipIisCustomErrors = true;
 
             //Trigger an event, so we can register it.
             EventBus.Trigger(new EddoHandledExceptionData(context.Exception));
@@ -106,10 +107,11 @@ namespace Eddo.Web.Mvc.Controllers
         private ActionResult GenerateNonAjaxResult(ExceptionContext context)
         {
             context.HttpContext.Response.StatusCode = 500;
+           // return new ContentResult { Content = context.Exception.Message };
             return new ViewResult
             {
-                ViewName = View,
-                MasterName = Master,
+                ViewName = this.View,
+                MasterName =this.Master,
                 ViewData = new ViewDataDictionary<ErrorViewModel>(new ErrorViewModel(context.Exception)),
                 TempData = context.Controller.TempData
             };

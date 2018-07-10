@@ -221,6 +221,7 @@
     <Compile Include="App_Start\WebAppModule.cs" />
     <Compile Include="Attribute\EmailAttribute.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -283,6 +284,8 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Home\PersonInfo.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Error\E404.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\Framwork\" />

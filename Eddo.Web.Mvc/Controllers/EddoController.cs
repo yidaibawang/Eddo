@@ -2,8 +2,12 @@
 using Eddo.Domain.UnitOfWorks;
 using Eddo.Events;
 using Eddo.ObjectMapper;
+using Eddo.Reflection;
 using Eddo.Runtime.Session;
+using Eddo.Web.Models;
+using Eddo.Web.Mvc.Result;
 using System;
+using System.Text;
 using System.Web.Mvc;
 
 namespace Eddo.Web.Mvc.Controllers
@@ -53,5 +57,39 @@ namespace Eddo.Web.Mvc.Controllers
             EventBus = NullEventBus.Instance;
             ObjectMapper = NullObjectMapper.Instance;
         }
+        protected override JsonResult Json(object data, string contentType, Encoding contentEncoding, JsonRequestBehavior behavior)
+        {
+            if (data == null)
+            {
+                data = new AjaxResponse();
+            }
+            else if (!ReflectionHelper.IsAssignableToGenericType(data.GetType(), typeof(AjaxResponse<>)))
+            {
+                data = new AjaxResponse(data);
+            }
+
+            return new EddoJsonResult
+            {
+                Data = data,
+                ContentType = contentType,
+                ContentEncoding = contentEncoding,
+                JsonRequestBehavior = behavior
+            };
+        }
+
+        protected override void OnActionExecuting(ActionExecutingContext filterContext)
+        {
+            //HandleAuditingBeforeAction(filterContext);
+
+            base.OnActionExecuting(filterContext);
+        }
+
+        protected override void OnActionExecuted(ActionExecutedContext filterContext)
+        {
+            base.OnActionExecuted(filterContext);
+
+          //  HandleAuditingAfterAction(filterContext);
+        }
+
     }
 }
