@@ -72,7 +72,7 @@ namespace Eddo.Web.Mvc.Controllers
             //We handled the exception!
    
 
-            //Return a special error response to the client.
+            // 判断是否ajax请求
     
             context.Result = IsAjaxRequest(context)
                 ? GenerateAjaxResult(context)

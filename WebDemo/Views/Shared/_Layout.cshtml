@@ -43,7 +43,7 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     <script>
-        $(document).ready(function () {
+        jQuery(document).ready(function () {
             $('ul.nav > li').each(function (index, item) {
                 var class_name = location.pathname.split('/')[2];
 
@@ -52,6 +52,7 @@
                     $(this).addClass("active").siblings().removeClass("active");
                 }
             });
+            CurrentPage && CurrentPage.init();
         });
     </script>
 </body>

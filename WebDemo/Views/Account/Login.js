@@ -17,7 +17,7 @@
 
         $loginForm.submit(function (e) {
             e.preventDefault();
-
+            alert("111");
             if (!$('.login-form').valid()) {
                 return;
             }

@@ -61,7 +61,6 @@ namespace WebDemo.Controllers
         // POST: /Account/Login
         [HttpPost]
         [AllowAnonymous]
-        [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel loginModel, string returnUrl)
         {
             if (!ModelState.IsValid)
@@ -95,11 +94,32 @@ namespace WebDemo.Controllers
                     return loginResult;
            
                 default:
-                    throw new UserFriendlyException(loginResult.Result.ToString());
+                    throw CreateExceptionForFailedLoginAttempt(loginResult.Result, usernameOrEmailAddress, tenancyName);
             }
 
         }
-
+        private Exception CreateExceptionForFailedLoginAttempt(EddoLoginResultType result, string usernameOrEmailAddress, string tenancyName)
+        {
+            switch (result)
+            {
+                case EddoLoginResultType.Success:
+                    return new ApplicationException("不要使用成功结果调用此方法!");
+                case EddoLoginResultType.InvalidUserNameOrEmailAddress:
+                case EddoLoginResultType.InvalidPassword:
+                    return new UserFriendlyException("登录异常"," 用户名或密码错误");
+                case EddoLoginResultType.InvalidTenancyName:
+                    return new UserFriendlyException("登录异常","租户不存在");
+                case EddoLoginResultType.TenantIsNotActive:
+                    return new UserFriendlyException("登录异常","租户没激活");
+                case EddoLoginResultType.UserIsNotActive:
+                    return new UserFriendlyException("登录异常","账号"+ usernameOrEmailAddress + "没有激活");
+                case EddoLoginResultType.UserEmailIsNotConfirmed:
+                    return new UserFriendlyException("登录异常", "邮箱没有确认不能登录");
+                default: //Can not fall to default actually. But other result types can be added in the future and we may forget to handle it
+                    Logger.Warn("Unhandled login fail reason: " + result);
+                    return new UserFriendlyException("登录失败");
+            }
+        }
         private async Task SignInAsync(User user, ClaimsIdentity identity = null, bool rememberMe = false)
         {
             if (identity == null)
