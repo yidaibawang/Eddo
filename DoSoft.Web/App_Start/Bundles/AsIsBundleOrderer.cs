@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 
-namespace Dosoft.Web.App_Start.Bundles
+namespace Dosoft.Web
 {
     public class AsIsBundleOrderer:IBundleOrderer
     {

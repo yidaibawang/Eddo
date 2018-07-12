@@ -1,12 +1,24 @@
-﻿<!DOCTYPE html>
+﻿@using Eddo.Web.Mvc.Extensions
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta content="AbpZeroTemplate" name="description" />
+    <meta content="AbpZeroTemplate" name="keywords">
+    <meta content="AbpZeroTemplate" name="author" />
+    <link rel="shortcut icon" href="~/favicon.ico" />
+    <link href="~/Content/fonts-open-sans.css" rel="stylesheet" type="text/css" />
+    @Html.IncludeStyle(StylePaths.FontAwesome)
+    @Html.IncludeStyle(StylePaths.Simple_Line_Icons)
+    @Html.IncludeStyle(StylePaths.Bootstrap)
+    @Html.IncludeStyle(StylePaths.JQuery_Uniform)
+    @Html.IncludeStyle(StylePaths.Toastr)
+    @Html.IncludeStyle(StylePaths.FamFamFamFlags)
+
+    @Html.IncludeStyle("~/metronic/assets/global/css/components-md.css")
+    @Html.IncludeStyle("~/metronic/assets/global/css/plugins-md.css")
     <script type="text/javascript">
         @* This is used to get the application's root path from javascript.
         It's useful if you're running application in a virtual directory under IIS. *@
@@ -41,8 +53,25 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/Bundles/App/vendor/js")
-
+    @Html.IncludeScript(ScriptPaths.Json2)
+    @Html.IncludeScript(ScriptPaths.JQuery)
+    @Html.IncludeScript(ScriptPaths.JQuery_Migrate)
+    @Html.IncludeScript(ScriptPaths.Bootstrap)
+    @Html.IncludeScript(ScriptPaths.JQuery_BlockUi)
+    @Html.IncludeScript(ScriptPaths.JQuery_Uniform)
+    @Html.IncludeScript(ScriptPaths.Toastr)
+    @Html.IncludeScript(ScriptPaths.SpinJs)
+    @Html.IncludeScript(ScriptPaths.SpinJs_JQuery)
+    @Html.IncludeScript(ScriptPaths.SweetAlert)
+    @Html.IncludeScript(ScriptPaths.Abp)
+    @Html.IncludeScript(ScriptPaths.Abp_JQuery)
+    @Html.IncludeScript(ScriptPaths.Abp_BlockUi)
+    @Html.IncludeScript(ScriptPaths.Abp_SpinJs)
+    @Html.IncludeScript(ScriptPaths.Abp_Toastr)
+    @Html.IncludeScript(ScriptPaths.Abp_SweetAlert)
+    @Html.IncludeScript(ScriptPaths.JQuery_Validation)
+    @Scripts.Render("~/Bundles/Common/js")
+    @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
     @RenderSection("scripts", required: false)
     <script>
         jQuery(document).ready(function () {

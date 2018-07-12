@@ -41,12 +41,11 @@ namespace Dosoft.Web
             bundles.Add(
                 new ScriptBundle("~/bundles/App/vendor/js")
                     .Include(
-                        "~/libs/jquery/jquery.min.js",
+                        "~/libs/jquery-validation/js/jquery.validate.min.js",
                         "~/Abp/Framework/scripts/utils/ie10fix.js",
                         "~/libs/json2/json2.min.js",
                         "~/Scripts/modernizr-2.6.2.js",
                         "~/Scripts/bootstrap.min.js",
-                         ScriptPaths.JQuery_Ajax_Form,
                         "~/libs/moment/moment-with-locales.min.js",
                         "~/libs/jquery-validation/jquery.validate.min.js",
                         "~/libs/jquery.blockUI/jquery.blockui.min.js",
