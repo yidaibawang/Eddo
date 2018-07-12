@@ -18,6 +18,12 @@ namespace Eddo.Web
             EddoBootstrapper.IocManager.RegisterIfNot<IAssemblyFinder, WebAssemblyFinder>();
             EddoBootstrapper.Initialize();
         }
+
+        public void Application_Start(object sender, object e)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// 程序结束
         /// </summary>

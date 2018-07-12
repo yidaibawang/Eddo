@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace WebDemo.Controllers
 {
-
+    [Authorize]
     public class HomeController : EddoController
     {
 

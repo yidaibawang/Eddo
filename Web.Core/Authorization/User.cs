@@ -1,9 +1,7 @@
-﻿using Eddo.Domain.Entities;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Eddo.Extensions;
 using Eddo.Permissions.Authorization.Users;
-using System;
-using Eddo.Extensions;
 using Microsoft.AspNet.Identity;
+using System;
 
 namespace Web.Core
 {

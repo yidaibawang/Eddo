@@ -277,6 +277,7 @@
     <Compile Include="Runtime\Session\ClaimsEddoSession.cs" />
     <Compile Include="Runtime\Session\DefaultPrincipalAccessor.cs" />
     <Compile Include="Runtime\Session\EddoSessionBase.cs" />
+    <Compile Include="Runtime\Session\EddoSessionExtensions.cs" />
     <Compile Include="Runtime\Session\IEddoSession.cs" />
     <Compile Include="Runtime\Session\IPrincipalAccessor.cs" />
     <Compile Include="Runtime\Session\NullEddoSession.cs" />
