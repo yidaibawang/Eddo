@@ -235,8 +235,38 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css" />
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
+    <Content Include="Common\Images\app-logo-on-dark.png" />
+    <Content Include="Common\Images\app-logo-on-light.png" />
+    <Content Include="Common\Images\app-logo-small.png" />
+    <Content Include="Common\Images\default-profile-picture.png" />
+    <Content Include="Common\Images\logo.png" />
+    <Content Include="Common\Images\open-id-connect.png" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-01.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-02.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-03.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-04.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-05.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-06.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-07.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-08.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-09.jpg" />
+    <Content Include="Common\Images\SampleProfilePics\sample-profile-10.jpg" />
+    <Content Include="Common\Images\ws-federation.png" />
+    <Content Include="Common\Scripts\appUserNotificationHelper.js" />
+    <Content Include="Common\Scripts\Chat\chat.js" />
+    <Content Include="Common\Scripts\Chat\chat.signalr.js" />
     <Content Include="Common\Scripts\consts.js" />
+    <Content Include="Common\Scripts\helpers.js" />
+    <Content Include="Common\Scripts\jquery-custom.js" />
     <Content Include="Common\Scripts\jquery-validation-custom.js" />
+    <Content Include="Common\Scripts\librarySettings.js" />
+    <Content Include="Common\Scripts\LocalStorage\localStorage.js" />
+    <Content Include="Common\Scripts\LocalStorage\localStorage.localForage.js" />
+    <Content Include="Common\Scripts\ModalManager.js" />
+    <Content Include="Common\Scripts\passwordComplexityHelper.js" />
+    <Content Include="Common\Scripts\utils.js" />
+    <Content Include="Common\Styles\core.css" />
+    <Content Include="Common\Styles\core.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\flags\famfamfam-flags.css" />
@@ -2800,6 +2830,8 @@
     <Content Include="libs\toastr\toastr.js.map" />
     <Content Include="libs\toastr\toastr.less" />
     <Content Include="libs\toastr\toastr.scss" />
+    <Content Include="Common\Styles\core.css.map" />
+    <Content Include="Common\Styles\core.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -2830,7 +2862,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Common\Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
