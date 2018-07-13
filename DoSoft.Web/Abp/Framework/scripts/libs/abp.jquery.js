@@ -30,7 +30,7 @@
         return $.Deferred(function ($dfd) {
             $.ajax(options)
                 .done(function (data, textStatus, jqXHR) {
-                    if (data.__abp) {
+                    if (data.__eddo) {
                         abp.ajax.handleResponse(data, userOptions, $dfd, jqXHR);
                     } else {
                         $dfd.resolve(data);

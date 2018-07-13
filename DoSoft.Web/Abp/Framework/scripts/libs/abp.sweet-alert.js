@@ -51,9 +51,9 @@
         );
 
         return $.Deferred(function ($dfd) {
-            sweetAlert(opts).then(function () {
-                $dfd.resolve();
-            });
+            sweetAlert(opts);
+            $dfd.resolve();
+           
         });
     };
 

@@ -25,7 +25,7 @@
             abp.ui.setBusy(
                 null,
                 abp.ajax({
-                    contentType: app.consts.contentTypes.formUrlencoded,
+                    contentType: "application/x-www-form-urlencoded",
                     url: $loginForm.attr('action'),
                     data: $loginForm.serialize()
                 })

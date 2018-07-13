@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace Dosoft.Web
+namespace DoSoft.Web
 {
     public static class BundleExtensions
     {
