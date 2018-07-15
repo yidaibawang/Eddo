@@ -6,6 +6,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Mvc.Html;
 
 namespace Eddo.Web.Mvc.Extensions
 {
@@ -38,7 +39,10 @@ namespace Eddo.Web.Mvc.Extensions
         {
             return html.Raw("<link rel=\"stylesheet\" type=\"text/css\" href=\"" + GetPathWithVersioning(url) + "\" />");
         }
-
+        public static MvcHtmlString Widget(this HtmlHelper helper, string widgetZone, object additionalData = null, string area = null)
+        {
+            return helper.Action("WidgetsByZone", "Widget", new { widgetZone = widgetZone, additionalData = additionalData, area = area });
+        }
         private static string GetPathWithVersioning(string path)
         {
             if (Cache.ContainsKey(path))

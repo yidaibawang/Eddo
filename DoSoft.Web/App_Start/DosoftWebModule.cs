@@ -5,6 +5,7 @@ using Eddo.Caching;
 using Eddo.Modules;
 using Eddo.RedisCache;
 using Eddo.Web.Mvc;
+using Eddo.Web.Mvc.Themes;
 using System.Reflection;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -31,6 +32,9 @@ namespace DoSoft.Web
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            ViewEngines.Engines.Clear();
+            //except the themeable razor view engine we use
+            ViewEngines.Engines.Add(new ThemeableRazorViewEngine());
             //Areas
             AreaRegistration.RegisterAllAreas();
             //Routes

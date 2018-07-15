@@ -68,6 +68,9 @@
     <Compile Include="Authorization\Users\Entities\UserPermissionSetting.cs" />
     <Compile Include="Authorization\Users\Entities\UserRole.cs" />
     <Compile Include="Authorization\Users\IUserPermissionStore.cs" />
+    <Compile Include="Dtos\EddoModuleInputDtoBase.cs" />
+    <Compile Include="EddoModuleBase.cs" />
+    <Compile Include="EddoModuleMange.cs" />
     <Compile Include="EddoPermissionsModule.cs" />
     <Compile Include="IdentityFramework\EddoIdentityResult.cs" />
     <Compile Include="IdentityFramework\IdentityResultExtensions.cs" />

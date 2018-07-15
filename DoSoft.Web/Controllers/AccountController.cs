@@ -89,7 +89,7 @@ namespace DoSoft.Web.Controllers
 
             if (string.IsNullOrWhiteSpace(returnUrl))
             {
-                returnUrl = Request.ApplicationPath;
+                returnUrl = Request.ApplicationPath+"/admin";
             }
 
             return Json(new AjaxResponse { TargetUrl = returnUrl });
@@ -216,7 +216,7 @@ namespace DoSoft.Web.Controllers
                     //Username and Password are required if not external login
                     if (model.UserName.IsNullOrEmpty() || model.Password.IsNullOrEmpty())
                     {
-                        throw new Exception("FormIsNotValidMessage");
+                        throw new Exception("表单验证信息");
                     }
                 }
 

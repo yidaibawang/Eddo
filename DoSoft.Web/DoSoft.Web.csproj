@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -76,8 +76,8 @@
     <Reference Include="Microsoft.AspNet.Identity.Owin">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -112,11 +112,30 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
@@ -135,32 +154,8 @@
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -328,9 +323,275 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="libs\animate\animate.css" />
+    <Content Include="libs\bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css" />
+    <Content Include="libs\bootstrap-colorpicker\dist\css\bootstrap-colorpicker.min.css" />
+    <Content Include="libs\bootstrap-colorpicker\dist\img\bootstrap-colorpicker\alpha-horizontal.png" />
+    <Content Include="libs\bootstrap-colorpicker\dist\img\bootstrap-colorpicker\alpha.png" />
+    <Content Include="libs\bootstrap-colorpicker\dist\img\bootstrap-colorpicker\hue-horizontal.png" />
+    <Content Include="libs\bootstrap-colorpicker\dist\img\bootstrap-colorpicker\hue.png" />
+    <Content Include="libs\bootstrap-colorpicker\dist\img\bootstrap-colorpicker\saturation.png" />
+    <Content Include="libs\bootstrap-colorpicker\dist\js\bootstrap-colorpicker.js" />
+    <Content Include="libs\bootstrap-colorpicker\dist\js\bootstrap-colorpicker.min.js" />
+    <Content Include="libs\bootstrap-colorpicker\docs\assets\main.css" />
+    <Content Include="libs\bootstrap-colorpicker\docs\helpers\code\index.js" />
+    <Content Include="libs\bootstrap-colorpicker\serve.js" />
+    <Content Include="libs\bootstrap-colorpicker\src\js\colorpicker-color.js" />
+    <Content Include="libs\bootstrap-colorpicker\src\js\colorpicker-component.js" />
+    <Content Include="libs\bootstrap-colorpicker\src\js\colorpicker-defaults.js" />
+    <Content Include="libs\bootstrap-colorpicker\src\js\colorpicker-plugin-wrapper.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.min.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.standalone.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.standalone.min.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.min.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.standalone.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.standalone.min.css" />
+    <Content Include="libs\bootstrap-datepicker\dist\js\bootstrap-datepicker.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\js\bootstrap-datepicker.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker-en-CA.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ar-tn.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ar.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.az.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.bg.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.bn.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.br.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.bs.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ca.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.cs.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.cy.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.da.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.de.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.el.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.en-AU.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.en-GB.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.en-IE.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.en-NZ.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.en-ZA.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.eo.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.es.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.et.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.eu.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.fa.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.fi.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.fo.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.fr-CH.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.fr.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.gl.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.he.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.hi.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.hr.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.hu.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.hy.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.id.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.is.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.it-CH.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.it.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ja.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ka.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.kh.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.kk.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.km.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ko.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.kr.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.lt.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.lv.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.me.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.mk.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.mn.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ms.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.nb.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.nl-BE.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.nl.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.no.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.oc.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.pl.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.pt-BR.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.pt.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ro.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.rs-latin.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.rs.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ru.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.si.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sk.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sl.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sq.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sr-latin.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sr.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sv.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.sw.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.ta.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.tg.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.th.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.tr.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.uk.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.uz-cyrl.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.uz-latn.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.vi.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.zh-CN.min.js" />
+    <Content Include="libs\bootstrap-datepicker\dist\locales\bootstrap-datepicker.zh-TW.min.js" />
+    <Content Include="libs\bootstrap-datepicker\docs\conf.py" />
+    <Content Include="libs\bootstrap-datepicker\docs\requirements.txt" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\demo_head.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\markup_component.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\markup_daterange.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\markup_inline.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\markup_input.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_calendarweeks.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_clearbtn.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_daysofweekdisabled.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_enddate.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_language.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_multidate.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_startdate.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_todaybtn.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_todayhighlight.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\option_weekstart.html" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\script\common.css" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\script\common.js" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\script\debug.js" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\script\html-imports.min.js" />
+    <Content Include="libs\bootstrap-datepicker\docs\_screenshots\script\screenshot.js" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\demo_head.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\markup_component.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\markup_daterange.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\markup_inline.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\markup_input.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_calendarweeks.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_clearbtn.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_daysofweekdisabled.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_enddate.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_language.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_multidate.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_startdate.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_todaybtn.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_todayhighlight.png" />
+    <Content Include="libs\bootstrap-datepicker\docs\_static\screenshots\option_weekstart.png" />
+    <Content Include="libs\bootstrap-datepicker\Gruntfile.js" />
+    <Content Include="libs\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker-en-CA.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ar-tn.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ar.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.az.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.bg.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.bn.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.br.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.bs.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ca.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.cs.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.cy.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.da.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.de.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.el.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.en-AU.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.en-GB.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.en-IE.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.en-NZ.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.en-ZA.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.eo.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.es.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.et.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.eu.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.fa.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.fi.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.fo.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.fr-CH.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.fr.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.gl.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.he.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.hi.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.hr.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.hu.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.hy.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.id.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.is.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.it-CH.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.it.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ja.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ka.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.kh.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.kk.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.km.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ko.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.kr.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.lt.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.lv.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.me.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.mk.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.mn.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ms.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.nb.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.nl-BE.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.nl.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.no.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.oc.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.pl.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.pt-BR.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.pt.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ro.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.rs-latin.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.rs.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ru.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.si.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sk.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sl.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sq.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sr-latin.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sr.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sv.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.sw.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.ta.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.tg.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.th.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.tr.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.uk.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.uz-cyrl.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.uz-latn.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.vi.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.zh-CN.js" />
+    <Content Include="libs\bootstrap-datepicker\js\locales\bootstrap-datepicker.zh-TW.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\coverage.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\jquery-1.7.1.min.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\mock.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\qunit-logging.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\qunit.css" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\qunit.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\assets\utils.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\calendar-weeks.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\component.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\data-api.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\events.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\formats.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\inline.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\keyboard_navigation\2011.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\keyboard_navigation\2012.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\keyboard_navigation\all.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\methods.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\methods_jquery.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\mouse_navigation\2011.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\mouse_navigation\2012.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\mouse_navigation\all.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\noconflict.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\options.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\timezone.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\suites\touch_navigation\all.js" />
+    <Content Include="libs\bootstrap-datepicker\tests\tests.html" />
+    <Content Include="libs\bootstrap-datepicker\tests\timezone.html" />
     <Content Include="libs\bootstrap-daterangepicker\bootstrap-daterangepicker.zh-cn.js" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.css" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="libs\bootstrap-daterangepicker\demo.html" />
+    <Content Include="libs\bootstrap-daterangepicker\drp.png" />
+    <Content Include="libs\bootstrap-daterangepicker\example\amd\index.html" />
+    <Content Include="libs\bootstrap-daterangepicker\example\amd\main.js" />
+    <Content Include="libs\bootstrap-daterangepicker\example\amd\require.js" />
+    <Content Include="libs\bootstrap-daterangepicker\example\browserify\bundle.js" />
+    <Content Include="libs\bootstrap-daterangepicker\example\browserify\index.html" />
+    <Content Include="libs\bootstrap-daterangepicker\example\browserify\main.js" />
+    <Content Include="libs\bootstrap-daterangepicker\package.js" />
+    <Content Include="libs\bootstrap-daterangepicker\website\index.html" />
+    <Content Include="libs\bootstrap-daterangepicker\website\website.css" />
+    <Content Include="libs\bootstrap-daterangepicker\website\website.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.min.js" />
     <Content Include="libs\bootstrap-select\bootstrap-select.css" />
@@ -464,6 +725,9 @@
     <Content Include="libs\bootstrap-select\js\i18n\defaults-zh_CN.min.js" />
     <Content Include="libs\bootstrap-select\js\i18n\defaults-zh_TW.js" />
     <Content Include="libs\bootstrap-select\js\i18n\defaults-zh_TW.min.js" />
+    <Content Include="libs\bootstrap-slider\bootstrap-slider.js" />
+    <Content Include="libs\bootstrap-slider\locks.png" />
+    <Content Include="libs\bootstrap-slider\slider.css" />
     <Content Include="libs\bootstrap-switch\css\bootstrap-switch.css" />
     <Content Include="libs\bootstrap-switch\css\bootstrap-switch.min.css" />
     <Content Include="libs\bootstrap-switch\dist\css\bootstrap2\bootstrap-switch.css" />
@@ -480,6 +744,11 @@
     <Content Include="libs\bootstrap-tagsinput\dist\bootstrap-tagsinput.css" />
     <Content Include="libs\bootstrap-tagsinput\dist\bootstrap-tagsinput.js" />
     <Content Include="libs\bootstrap-tagsinput\dist\bootstrap-tagsinput.min.js" />
+    <Content Include="libs\bootstrap-timepicker\js\bootstrap-timepicker.js" />
+    <Content Include="libs\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.js" />
+    <Content Include="libs\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.min.js" />
+    <Content Include="libs\bootstrap-wysihtml5\bootstrap3-wysihtml5.css" />
+    <Content Include="libs\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css" />
     <Content Include="libs\bootstrap\css\bootstrap-rtl.css" />
     <Content Include="libs\bootstrap\css\bootstrap-rtl.min.css" />
     <Content Include="libs\bootstrap\css\bootstrap-theme.css" />
@@ -579,6 +848,23 @@
     <Content Include="libs\carousel-owl-carousel\owl-carousel\owl.carousel.min.js" />
     <Content Include="libs\carousel-owl-carousel\owl-carousel\owl.theme.css" />
     <Content Include="libs\carousel-owl-carousel\owl-carousel\owl.transitions.css" />
+    <Content Include="libs\chart.js\Chart.js" />
+    <Content Include="libs\chart.js\Chart.min.js" />
+    <Content Include="libs\chart.js\gulpfile.js" />
+    <Content Include="libs\chart.js\samples\bar.html" />
+    <Content Include="libs\chart.js\samples\doughnut.html" />
+    <Content Include="libs\chart.js\samples\line-customTooltips.html" />
+    <Content Include="libs\chart.js\samples\line.html" />
+    <Content Include="libs\chart.js\samples\pie-customTooltips.html" />
+    <Content Include="libs\chart.js\samples\pie.html" />
+    <Content Include="libs\chart.js\samples\polar-area.html" />
+    <Content Include="libs\chart.js\samples\radar.html" />
+    <Content Include="libs\chart.js\src\Chart.Bar.js" />
+    <Content Include="libs\chart.js\src\Chart.Core.js" />
+    <Content Include="libs\chart.js\src\Chart.Doughnut.js" />
+    <Content Include="libs\chart.js\src\Chart.Line.js" />
+    <Content Include="libs\chart.js\src\Chart.PolarArea.js" />
+    <Content Include="libs\chart.js\src\Chart.Radar.js" />
     <Content Include="libs\eve-raphael\eve.js" />
     <Content Include="libs\excanvas\excanvas.min.js" />
     <Content Include="libs\fancybox\CHANGELOG.txt" />
@@ -1616,7 +1902,30 @@
     <Content Include="libs\jquery-jtable\themes\metro\red\loading.gif" />
     <Content Include="libs\jquery-slimscroll\jquery.slimscroll.js" />
     <Content Include="libs\jquery-slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="libs\jquery-sparkline\Changelog.txt" />
+    <Content Include="libs\jquery-sparkline\dist\jquery.sparkline.js" />
+    <Content Include="libs\jquery-sparkline\dist\jquery.sparkline.min.js" />
     <Content Include="libs\jquery-sparkline\jquery.sparkline.min.js" />
+    <Content Include="libs\jquery-sparkline\minheader.txt" />
+    <Content Include="libs\jquery-sparkline\src\base.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-bar.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-box.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-bullet.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-discrete.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-line.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-pie.js" />
+    <Content Include="libs\jquery-sparkline\src\chart-tristate.js" />
+    <Content Include="libs\jquery-sparkline\src\defaults.js" />
+    <Content Include="libs\jquery-sparkline\src\footer.js" />
+    <Content Include="libs\jquery-sparkline\src\header.js" />
+    <Content Include="libs\jquery-sparkline\src\interact.js" />
+    <Content Include="libs\jquery-sparkline\src\rangemap.js" />
+    <Content Include="libs\jquery-sparkline\src\simpledraw.js" />
+    <Content Include="libs\jquery-sparkline\src\utils.js" />
+    <Content Include="libs\jquery-sparkline\src\vcanvas-base.js" />
+    <Content Include="libs\jquery-sparkline\src\vcanvas-canvas.js" />
+    <Content Include="libs\jquery-sparkline\src\vcanvas-vml.js" />
+    <Content Include="libs\jquery-sparkline\version.txt" />
     <Content Include="libs\jquery-timeago\jquery.timeago.js" />
     <Content Include="libs\jquery-timeago\locales\jquery.timeago.af.js" />
     <Content Include="libs\jquery-timeago\locales\jquery.timeago.ar.js" />
@@ -2872,6 +3181,108 @@
     <Content Include="fonts\roboto\PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2" />
     <Content Include="fonts\roboto\u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2" />
     <Content Include="fonts\roboto\UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="libs\bootstrap-colorpicker\.bower.json" />
+    <Content Include="libs\bootstrap-colorpicker\bower.json" />
+    <Content Include="libs\bootstrap-colorpicker\CONTRIBUTING.md" />
+    <Content Include="libs\bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css.map" />
+    <Content Include="libs\bootstrap-colorpicker\dist\css\bootstrap-colorpicker.min.css.map" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\api.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\example.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\01_basic.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\02_component.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\03_component_options.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\04_events.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\05_transparent.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\06_horizontal.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\07_inline.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\08_palette.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\09_size.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\10_disabled.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\examples\11_modal.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\includes\social.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\layout.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\docs\pages\index.hbs" />
+    <Content Include="libs\bootstrap-colorpicker\LICENSE" />
+    <Content Include="libs\bootstrap-colorpicker\README.md" />
+    <Content Include="libs\bootstrap-colorpicker\src\less\colorpicker.less" />
+    <Content Include="libs\bootstrap-colorpicker\src\sass\_colorpicker.scss" />
+    <Content Include="libs\bootstrap-datepicker\.bower.json" />
+    <Content Include="libs\bootstrap-datepicker\.editorconfig" />
+    <Content Include="libs\bootstrap-datepicker\.github\ISSUE_TEMPLATE.md" />
+    <Content Include="libs\bootstrap-datepicker\.github\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="libs\bootstrap-datepicker\.gitignore" />
+    <Content Include="libs\bootstrap-datepicker\.travis.yml" />
+    <Content Include="libs\bootstrap-datepicker\bower.json" />
+    <Content Include="libs\bootstrap-datepicker\build\build.less" />
+    <Content Include="libs\bootstrap-datepicker\build\build3.less" />
+    <Content Include="libs\bootstrap-datepicker\build\build_standalone.less" />
+    <Content Include="libs\bootstrap-datepicker\build\build_standalone3.less" />
+    <Content Include="libs\bootstrap-datepicker\CHANGELOG.md" />
+    <Content Include="libs\bootstrap-datepicker\CODE_OF_CONDUCT.md" />
+    <Content Include="libs\bootstrap-datepicker\composer.json" />
+    <Content Include="libs\bootstrap-datepicker\CONTRIBUTING.md" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.css.map" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker.standalone.css.map" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css.map" />
+    <Content Include="libs\bootstrap-datepicker\dist\css\bootstrap-datepicker3.standalone.css.map" />
+    <Content Include="libs\bootstrap-datepicker\docs\events.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\i18n.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\index.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\keyboard.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\make.bat" />
+    <Content Include="libs\bootstrap-datepicker\docs\Makefile" />
+    <Content Include="libs\bootstrap-datepicker\docs\markup.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\methods.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\options.rst" />
+    <Content Include="libs\bootstrap-datepicker\docs\README.md" />
+    <Content Include="libs\bootstrap-datepicker\grunt\.jshintrc" />
+    <Content Include="libs\bootstrap-datepicker\js\.jscsrc" />
+    <Content Include="libs\bootstrap-datepicker\js\.jshintrc" />
+    <Content Include="libs\bootstrap-datepicker\less\.csslintrc" />
+    <Content Include="libs\bootstrap-datepicker\less\datepicker.less" />
+    <Content Include="libs\bootstrap-datepicker\less\datepicker3.less" />
+    <Content Include="libs\bootstrap-datepicker\LICENSE" />
+    <Content Include="libs\bootstrap-datepicker\package.json" />
+    <Content Include="libs\bootstrap-datepicker\README.md" />
+    <Content Include="libs\bootstrap-datepicker\tests\README.md" />
+    <Content Include="libs\bootstrap-datepicker\yarn.lock" />
+    <Content Include="libs\bootstrap-daterangepicker\.bower.json" />
+    <Content Include="libs\bootstrap-daterangepicker\bower.json" />
+    <Content Include="libs\bootstrap-daterangepicker\daterangepicker.scss" />
+    <Content Include="libs\bootstrap-daterangepicker\example\browserify\README.md" />
+    <Content Include="libs\bootstrap-daterangepicker\package.json" />
+    <Content Include="libs\bootstrap-daterangepicker\README.md" />
+    <Content Include="libs\bootstrap-slider\.bower.json" />
+    <Content Include="libs\bootstrap-slider\bower.json" />
+    <Content Include="libs\bootstrap-slider\README.md" />
+    <Content Include="libs\bootstrap-timepicker\.bower.json" />
+    <Content Include="libs\bootstrap-timepicker\bower.json" />
+    <Content Include="libs\bootstrap-timepicker\CHANGELOG.md" />
+    <Content Include="libs\bootstrap-timepicker\css\timepicker.less" />
+    <Content Include="libs\bootstrap-timepicker\LICENSE" />
+    <Content Include="libs\bootstrap-timepicker\README.md" />
+    <Content Include="libs\chart.js\.bower.json" />
+    <Content Include="libs\chart.js\.gitignore" />
+    <Content Include="libs\chart.js\.travis.yml" />
+    <Content Include="libs\chart.js\bower.json" />
+    <Content Include="libs\chart.js\CONTRIBUTING.md" />
+    <Content Include="libs\chart.js\docs\00-Getting-Started.md" />
+    <Content Include="libs\chart.js\docs\01-Line-Chart.md" />
+    <Content Include="libs\chart.js\docs\02-Bar-Chart.md" />
+    <Content Include="libs\chart.js\docs\03-Radar-Chart.md" />
+    <Content Include="libs\chart.js\docs\04-Polar-Area-Chart.md" />
+    <Content Include="libs\chart.js\docs\05-Pie-Doughnut-Chart.md" />
+    <Content Include="libs\chart.js\docs\06-Advanced.md" />
+    <Content Include="libs\chart.js\docs\07-Notes.md" />
+    <Content Include="libs\chart.js\LICENSE.md" />
+    <Content Include="libs\chart.js\package.json" />
+    <Content Include="libs\chart.js\README.md" />
+    <Content Include="libs\jquery-sparkline\.bower.json" />
+    <Content Include="libs\jquery-sparkline\bower.json" />
+    <Content Include="libs\jquery-sparkline\Makefile" />
+    <Content Include="libs\jquery-sparkline\README.md" />
+    <Content Include="libs\jquery-sparkline\sparkline.jquery.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -3016,7 +3427,7 @@
       <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

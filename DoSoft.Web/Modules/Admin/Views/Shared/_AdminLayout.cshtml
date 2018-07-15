@@ -1,0 +1,219 @@
+﻿@using System.Globalization
+@using Eddo.Web.Mvc.Extensions;
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DoSoft系统框架</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    @{
+        var kendoVersion = "2014.1.318";
+        const string hideSidebarAttributeName = "HideSidebar";
+
+        bool hideSidebar = false;
+    }
+    @Html.IncludeStyle("~/libs/bootstrap/css/bootstrap.min.css")
+    @Html.IncludeStyle("~/Modules/Admin/Content/adminLTE/css/AdminLTE.css")
+    @Html.IncludeStyle("~/Modules/Admin/Content/styles.rtl.css")
+    @Html.IncludeStyle("~/Modules/Admin/Content/adminLTE/css/skins/_all-skins.min.css")
+    @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.rtl.min.css", kendoVersion))
+
+    @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.default.min.css", kendoVersion))
+    @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.common.min.css", kendoVersion))
+    @Html.IncludeStyle("~/Modules/Admin/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css")
+    @Html.IncludeStyle("~/libs/font-awesome/css/font-awesome.min.css")
+    @Html.IncludeStyle("~/Modules/Admin/Content/typeahead/typeahead.css")
+    @Html.IncludeStyle("~/Modules/Admin/Content/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css")
+    <!-- AdminLTE Skins (choose a skin from the css/skins) -->
+
+    @Html.IncludeScript("~/libs/jquery/jquery.min.js")
+    @Html.IncludeScript("~/libs/bootstrap/js/bootstrap.min.js")
+    @Html.IncludeScript("~/libs/jquery-validation/js/jquery-validation-custom.js")
+    @Html.IncludeScript("~/libs/jquery-validation/js/jquery.validate.min.js")
+    @Html.IncludeScript("~/libs/jquery/jquery-migrate.min.js")
+    @Html.IncludeScript(string.Format("~/Modules/Admin/Scripts/kendo/{0}/kendo.web.min.js", kendoVersion))
+    @Html.IncludeScript("~/Modules/Admin/Scripts/admin.search.js")
+    @Html.IncludeScript("~/Modules/Admin/scripts/admin.navigation.js")
+    @Html.IncludeScript("~/Modules/Admin/Scripts/admin.common.js")
+    @Html.IncludeScript("~/Modules/Admin/Scripts/typeahead/typeahead.bundle.min.js")
+
+    @Html.IncludeScript("~/Modules/Admin/Scripts/jquery-ui-1.10.3.custom.min.js")
+
+    @Html.IncludeScript("~/Modules/Admin/Scripts/adminLTE/app.min.js")
+
+    @Html.IncludeScript("~/Modules/Admin/Scripts/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js")
+
+</head>
+    <body class="hold-transition skin-blue sidebar-mini @if (hideSidebar)
+                                                    {<text>sidebar-collapse</text>}">
+        <div class="throbber">
+            <div class="curtain">
+            </div>
+            <div class="curtain-content">
+                <div>
+                    <h1 class="throbber-header">加载中</h1>
+                    <p>
+                        <img src="@Url.Content("~/Modules/Admin/content/images/throbber-synchronizing.gif")" alt="" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="ajaxBusy">
+            <span>&nbsp;</span>
+        </div>
+        <div class="wrapper">
+            @if (IsSectionDefined("header"))
+            {
+                @RenderSection("header")
+            }
+            else
+            {
+   
+                <div class="main-header">
+                    <a href="@Url.Content("~/admin")" class="logo">
+                        <!-- mini logo for sidebar mini 50x50 pixels -->
+                        <span class="logo-mini"></span>
+                        <!-- logo for regular state and mobile devices -->
+                        <span class="logo-lg"></span>
+                    </a>
+                    <div class="navbar navbar-static-top" role="navigation">
+                        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                            <span class="sr-only">&nbsp;</span>
+                        </a>
+              
+                        <div class="navbar-custom-menu">
+                   
+                            <ul class="nav navbar-nav">
+                                <li>
+                                
+                                </li>
+                                
+                                    <li class="account-info">
+                                      admin
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Logout", "Customer", new {area = ""}, null)">
+                                          退出
+                                        </a>
+                                    </li>
+                             
+                                <li>
+                        
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Index", "Home", new {area = ""})">
+                                     主页
+                                    </a>
+                                </li>
+                               
+                                    <li class="dropdown">
+                                        <a href="#" data-toggle="dropdown"><i class="fa fa-gears"></i></a>
+                                        <ul class="maintenance-menu dropdown-menu bg-light-blue" role="menu">
+                                            <li>
+                                                @using (Html.BeginForm("ClearCache", "Common", new { area = "Admin" }))
+                                                {
+                                                    @Html.AntiForgeryToken()
+                                                    @Html.Hidden("returnurl", HttpContext.Current.Request.RawUrl)
+                                                    <button type="submit" class="bg-light-blue">
+                                                        <span>清理缓存</span>
+                                                    </button>
+                                                }
+                                            </li>
+                                            <li>
+                                                @using (Html.BeginForm("RestartApplication", "Common", new { area = "Admin" }))
+                                                {
+                                                    @Html.AntiForgeryToken()
+                                                    @Html.Hidden("returnurl", HttpContext.Current.Request.RawUrl)
+                                                    <button id="restart-application" type="submit" class="bg-light-blue">
+                                                        <span>重启应用</span>
+                                                    </button>
+                                                    <script type="text/javascript">
+                                                        $(document).ready(function () {
+                                                            $("#restart-application").click(function (e) {
+                                                                showThrobber('@Html.Raw(HttpUtility.JavaScriptStringEncode("执行中"))');
+                                                            });
+                                                        });
+                                                    </script>
+                                                }
+                                            </li>
+                                        </ul>
+                                    </li>
+                                
+                            </ul>
+        
+                        </div>
+                    </div>
+                </div>
+          
+            }
+            @if (IsSectionDefined("headermenu"))
+            {
+                @RenderSection("headermenu")
+            }
+            else
+            {
+                <div class="main-sidebar">
+                    <div class="sidebar">
+                  
+                        <div class="sidebar-form">
+                            <div id="search-box">
+                                <input type="text" class="form-control admin-search-box typeahead" placeholder="菜单查询">
+                            </div>
+                        </div>
+                        <script>
+                            $(document).ready(function () {
+                                Admin.Search.init();
+                            });
+                        </script>
+                       
+                        @Html.Partial("Menu")
+                    </div>
+                </div>
+            }
+            <div class="content-wrapper">
+                @Html.Partial("Notifications")
+                <div>
+                    @RenderBody()
+                </div>
+            </div>
+            <div class="main-footer clearfix">
+              
+                    @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                        Please find more info at http://www.nopcommerce.com/copyrightremoval.aspx*@
+                    <div class="pull-left">
+                        Powered by <a href="http://www.nopcommerce.com/?utm_source=admin-panel&utm_medium=footer&utm_campaign=admin-panel" target="_blank">nopCommerce</a>
+                    </div>
+                
+                <div class="pull-right hidden-xs">
+                    <b>nopCommerce version 2018</b>
+                </div>
+                <div class="text-center">
+                  111
+            </div>
+        </div>
+        <script>
+            var AdminLTEOptions = {
+                boxWidgetOptions: {
+                    boxWidgetIcons: {
+                        collapse: 'fa-minus',
+                        open: 'fa-plus'
+                    }
+                }
+            };
+        </script>
+
+        <a id="backTop" class="btn btn-back-top bg-teal"></a>
+        <script>
+            $(document).ready(function () {
+                $('#backTop').backTop();
+
+                $('a.sidebar-toggle').on('click', function () {
+                    var collapsed = $('body').hasClass('sidebar-collapse');
+                    saveUserPreferences('@(Url.Action("SavePreference", "Preferences"))', '@hideSidebarAttributeName', collapsed);
+                });
+            });
+        </script>
+    </body>
+    </html>
