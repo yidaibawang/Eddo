@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Eddo.Permissions
 {
-    public abstract class EddoModuleMangeBase<TModule, TModuleKey, TModuleInputDto> :IDomainService, ITransientDependency
+    public abstract class EddoModuleMangeBase<TModule, TModuleKey, TModuleInputDto> : IEddoModuleMange<TModule, TModuleKey, TModuleInputDto>,IDomainService, ITransientDependency
         where TModule: EddoModuleBase<TModuleKey>
         where TModuleKey : struct, IEquatable<TModuleKey>
         where TModuleInputDto: EddoModuleInputDtoBase<TModuleKey>

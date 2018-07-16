@@ -70,10 +70,11 @@
     <Compile Include="Authorization\Users\IUserPermissionStore.cs" />
     <Compile Include="Dtos\EddoModuleInputDtoBase.cs" />
     <Compile Include="EddoModuleBase.cs" />
-    <Compile Include="EddoModuleMange.cs" />
+    <Compile Include="EddoModuleMangeBase.cs" />
     <Compile Include="EddoPermissionsModule.cs" />
     <Compile Include="IdentityFramework\EddoIdentityResult.cs" />
     <Compile Include="IdentityFramework\IdentityResultExtensions.cs" />
+    <Compile Include="IEddoModuleMange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
