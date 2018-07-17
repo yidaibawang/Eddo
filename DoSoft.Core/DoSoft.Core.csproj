@@ -51,7 +51,9 @@
     <Compile Include="Authorization\Roles\RoleStore.cs" />
     <Compile Include="DoSoftCoreModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Dtos\ModuleInputDto.cs" />
     <Compile Include="Security\Entities\Module.cs" />
+    <Compile Include="Security\ModuleMange.cs" />
     <Compile Include="Security\PasswordComplexityChecker.cs" />
     <Compile Include="Security\PasswordComplexitySetting.cs" />
     <Compile Include="UserManagerment\User.cs" />

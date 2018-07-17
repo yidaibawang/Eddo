@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Eddo.Permissions.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Eddo.Permissions.Dtos;
-namespace DoSoft.Application.Security.Dtos
+
+namespace DoSoft.Core.Security.Dtos
 {
     public class ModuleInputDto:EddoModuleInputDtoBase<int>
     {

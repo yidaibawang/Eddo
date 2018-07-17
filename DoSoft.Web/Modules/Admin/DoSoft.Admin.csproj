@@ -1186,6 +1186,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WidgetController.cs" />
     <Compile Include="DoSoftAdminModule.cs" />
+    <Compile Include="Models\TreeNode.cs" />
     <Compile Include="Models\RenderWidgetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -1305,6 +1306,14 @@
     <Folder Include="Content\Roxy_Fileman\tmp\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\DoSoft.Core\DoSoft.Core.csproj">
+      <Project>{D8C19E25-A9F4-47A0-ADD5-9158C119B548}</Project>
+      <Name>DoSoft.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Eddo.Permissions\Eddo.Permissions.csproj">
+      <Project>{A3975233-746E-4E93-A05F-1853CBDB939C}</Project>
+      <Name>Eddo.Permissions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Eddo.Web.Mvc\Eddo.Web.Mvc.csproj">
       <Project>{c9a848d4-75f6-4a5e-b66b-4fd14826a064}</Project>
       <Name>Eddo.Web.Mvc</Name>

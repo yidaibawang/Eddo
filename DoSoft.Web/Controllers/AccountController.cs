@@ -136,7 +136,7 @@ namespace DoSoft.Web.Controllers
         private async Task SignInAsync(User user, ClaimsIdentity identity = null, bool rememberMe = false)
         {
             if (identity == null)
-            {
+            {   
                 identity = await _userManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);
             }
 
