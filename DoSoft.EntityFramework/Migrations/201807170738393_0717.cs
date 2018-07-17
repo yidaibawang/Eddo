@@ -3,10 +3,24 @@ namespace DoSoft.EntityFramework.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class _0712 : DbMigration
+    public partial class _0717 : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.EddoModules",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(nullable: false),
+                        Remark = c.String(),
+                        Code = c.String(nullable: false),
+                        OrderCode = c.Double(nullable: false),
+                        TreePathString = c.String(),
+                        ParentId = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.Id);
+            
             CreateTable(
                 "dbo.EddoPermissions",
                 c => new
@@ -150,6 +164,7 @@ namespace DoSoft.EntityFramework.Migrations
             DropTable("dbo.EddoUserClaims");
             DropTable("dbo.EddoRoles");
             DropTable("dbo.EddoPermissions");
+            DropTable("dbo.EddoModules");
         }
     }
 }

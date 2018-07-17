@@ -62,6 +62,6 @@ namespace Eddo.Permissions
         /// 获取或设置 父模块编号
         /// </summary>
         [DisplayName("父模块编号")]
-        public TModuleKey ParentId { get; set; }
+        public TModuleKey? ParentId { get; set; }
     }
 }

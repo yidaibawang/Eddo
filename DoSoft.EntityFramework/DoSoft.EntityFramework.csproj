@@ -50,9 +50,13 @@
   <ItemGroup>
     <Compile Include="DoSoftEntityFrameworkModule.cs" />
     <Compile Include="EntityFramework\DoSoftDbContext.cs" />
-    <Compile Include="Migrations\201807121344226_0712.cs" />
-    <Compile Include="Migrations\201807121344226_0712.Designer.cs">
-      <DependentUpon>201807121344226_0712.cs</DependentUpon>
+    <Compile Include="Migrations\201807170738393_0717.cs" />
+    <Compile Include="Migrations\201807170738393_0717.Designer.cs">
+      <DependentUpon>201807170738393_0717.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807170920082_071702.cs" />
+    <Compile Include="Migrations\201807170920082_071702.Designer.cs">
+      <DependentUpon>201807170920082_071702.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,8 +88,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807121344226_0712.resx">
-      <DependentUpon>201807121344226_0712.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807170738393_0717.resx">
+      <DependentUpon>201807170738393_0717.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807170920082_071702.resx">
+      <DependentUpon>201807170920082_071702.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

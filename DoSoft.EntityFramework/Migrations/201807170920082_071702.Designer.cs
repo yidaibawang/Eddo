@@ -7,13 +7,13 @@ namespace DoSoft.EntityFramework.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class _0712 : IMigrationMetadata
+    public sealed partial class _071702 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(_0712));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(_071702));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807121344226_0712"; }
+            get { return "201807170920082_071702"; }
         }
         
         string IMigrationMetadata.Source

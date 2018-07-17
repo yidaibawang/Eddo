@@ -10,13 +10,21 @@ namespace DoSoft.Admin.Controllers
 {
     public class WidgetController:Controller
     {
+        
+        public WidgetController()
+        {
+
+        }
         [ChildActionOnly]
         public virtual ActionResult WidgetsByZone(string widgetZone)
         {
-      
-          
-
+            
             return PartialView(widgetZone);
+        }
+        public virtual ActionResult Men(string widgetZone)
+        {
+
+            return PartialView("Menu");
         }
     }
 }

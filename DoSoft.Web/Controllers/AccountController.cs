@@ -54,10 +54,12 @@ namespace DoSoft.Web.Controllers
         // GET: /Account/Login
         [AllowAnonymous]
         public ActionResult Login(string userNameOrEmailAddress = "", string returnUrl = "", string successMessage = "")
-        {   
-
+        {
             ViewBag.ReturnUrl = returnUrl;
-            
+            if (returnUrl == "/")
+            {
+                ViewBag.ReturnUrl = returnUrl + "Admin";
+            }
             return View(new LoginFormViewModel
             {
            
@@ -73,6 +75,7 @@ namespace DoSoft.Web.Controllers
         [AllowAnonymous]
         public async Task<ActionResult> Login(LoginViewModel loginModel, string returnUrl)
         {
+ 
             if (!ModelState.IsValid)
             {
                 return View(loginModel);
@@ -89,7 +92,7 @@ namespace DoSoft.Web.Controllers
 
             if (string.IsNullOrWhiteSpace(returnUrl))
             {
-                returnUrl = Request.ApplicationPath+"/admin";
+                returnUrl = Request.ApplicationPath;
             }
 
             return Json(new AjaxResponse { TargetUrl = returnUrl });
