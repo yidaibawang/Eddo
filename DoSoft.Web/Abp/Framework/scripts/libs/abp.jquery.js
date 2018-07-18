@@ -57,23 +57,23 @@
         },
 
         defaultError: {
-            message: 'An error has occurred!',
-            details: 'Error detail not sent by server.'
+            message: '发生了错误!',
+            details: '服务器未发送错误详细信息.'
         },
 
         defaultError401: {
-            message: 'You are not authenticated!',
-            details: 'You should be authenticated (sign in) in order to perform this operation.'
+            message: '您未经过身份验证!',
+            details: '您应该进行身份验证（登录）以执行此操作.'
         },
 
         defaultError403: {
-            message: 'You are not authorized!',
-            details: 'You are not allowed to perform this operation.'
+            message: '您没有权限!',
+            details: '您不能执行此操作.'
         },
 
         defaultError404: {
-            message: 'Resource not found!',
-            details: 'The resource requested could not found on the server.'
+            message: '资源没有发现!',
+            details: '在服务器上找不到请求的资源.'
         },
 
         logError: function (error) {

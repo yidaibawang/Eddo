@@ -1,4 +1,5 @@
 ﻿@model List<DoSoft.Admin.Models.TreeNode>
+@using Eddo.Extensions;
 @{
     //load sitemap
     var siteMap = Model;
@@ -7,31 +8,41 @@
 
 @helper RenderMenuItem(DoSoft.Admin.Models.TreeNode item)
 {
-    string url = null;
- 
-    var isActive = false;
+    string url = item.Url;
 
-
+    if (!item.Url.IsNullOrEmpty())
+    {
+        url =Url.Content(item.Url);
+    }
 <li class="treeview">
-    <a href="#">
-        <i class="fa fa-share"></i> <span>@item.Name</span>
+
+    <a href="@url" class="menu-item-link">
+        @if (!String.IsNullOrEmpty(item.IconCls))
+        {
+            <text>
+                <i class="fa @Url.Content(item.IconCls)"></i>
+            </text>
+        }
+        <span>@item.Name</span>
         <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
+            @if (@item.HasChildren)
+            {
+                <i class="fa fa-angle-left pull-right"></i>
+            }
+
         </span>
     </a>
-
-    @{ var childNodes = item.Items.ToList(); }
-    @if (childNodes.Count > 0)
+    @if (@item.HasChildren)
     {
         <ul class="treeview-menu">
-            @foreach (var childItem in childNodes)
+            @foreach (var childItem in item.Items.ToList())
             {
                 @RenderMenuItem(childItem)
             }
         </ul>
     }
 </li>
-    
+
 }
 
 <ul class="sidebar-menu" data-widget="tree">

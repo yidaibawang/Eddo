@@ -10,10 +10,7 @@ namespace Eddo.Web.Mvc.Models
     [Serializable]
     public class MvcAjaxResponse<TResult>:AjaxResponse<TResult>
     {
-        /// <summary>
-        /// This property can be used to redirect user to a specified URL.
-        /// </summary>
-        public string TargetUrl { get; set; }
+   
 
         /// <summary>
         /// Creates an <see cref="MvcAjaxResponse"/> object.

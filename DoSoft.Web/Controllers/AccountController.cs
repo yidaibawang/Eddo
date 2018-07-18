@@ -56,10 +56,6 @@ namespace DoSoft.Web.Controllers
         public ActionResult Login(string userNameOrEmailAddress = "", string returnUrl = "", string successMessage = "")
         {
             ViewBag.ReturnUrl = returnUrl;
-            if (returnUrl == "/")
-            {
-                ViewBag.ReturnUrl = returnUrl + "Admin";
-            }
             return View(new LoginFormViewModel
             {
            

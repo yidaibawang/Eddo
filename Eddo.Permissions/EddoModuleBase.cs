@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Eddo.Permissions
-{    
+{
     [Table("EddoModules")]
     public abstract class EddoModuleBase<TModuleKey> : Entity<TModuleKey>
           where TModuleKey : struct, IEquatable<TModuleKey>
@@ -32,7 +32,30 @@ namespace Eddo.Permissions
         /// </summary>
         [Required]
         public string Code { get; set; }
-
+        /// <summary>
+        /// 资源地址
+        /// </summary>
+        public string Resource { get; set; }
+        /// <summary>
+        /// 权限项
+        /// </summary>
+        public string PermissionNames { get; set; }
+        /// <summary>
+        /// 区域
+        /// </summary>
+        public string area { get; set; }
+        /// <summary>
+        /// 处理器
+        /// </summary>
+        public string controller { get; set; }
+        /// <summary>
+        /// 方法
+        /// </summary>
+        public string action { get; set; }
+        /// <summary>
+        /// 图标
+        /// </summary>
+        public string IconClass { get; set; }
         /// <summary>
         /// 获取或设置 节点内排序码
         /// </summary>

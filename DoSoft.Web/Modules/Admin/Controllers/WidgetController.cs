@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using Eddo.Extensions;
 namespace DoSoft.Admin.Controllers
 {
     public class WidgetController: EddoController
@@ -36,6 +36,10 @@ namespace DoSoft.Admin.Controllers
                 m.Name,
                 m.OrderCode,
                 m.Remark,
+                m.area,
+                m.controller,
+                m.action,
+                m.IconClass,
                 ChildIds = _moduleMange.Modules.Where(n => n.ParentId == m.Id).OrderBy(n => n.OrderCode).Select(n => n.Id).ToList()
             }).ToList();
             List<TreeNode> nodes = new List<TreeNode>();
@@ -44,6 +48,16 @@ namespace DoSoft.Admin.Controllers
                 TreeNode node = new TreeNode();
                 node.Id = item.Id;
                 node.Name = item.Name;
+                node.IconCls = item.IconClass;
+                if (item.controller.IsNullOrEmpty() || item.controller.IsNullOrEmpty())
+                {
+                    node.Url = null;
+                }
+                else
+                {
+                    node.Url = Url.Action(item.action,item.controller, new { area = item.area });
+                }
+                node.HasChildren = item.ChildIds.Count > 0 ? true : false;
                 node.Items = item.ChildIds.Count > 0 ? GetModulesWithChecked(item.ChildIds.ToArray()) : new List<TreeNode>();
                 nodes.Add(node);
             }

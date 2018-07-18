@@ -44,9 +44,10 @@
             {},
             abp.libs.sweetAlert.config['default'],
             abp.libs.sweetAlert.config[type],
-            {
+            {    
                 title: title,
-                text: message
+                text: message,
+                type:type
             }
         );
 

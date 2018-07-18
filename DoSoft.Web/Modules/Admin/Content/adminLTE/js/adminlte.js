@@ -1045,13 +1045,15 @@ throw new Error('AdminLTE requires jQuery')
       return;
     }
 
-    if (!this.options.followLink || link.attr('href') === '#') {
+    //if (!this.options.followLink || link.attr('href') === '#') {
+    //  event.preventDefault();
+    //}
+     if (link.attr('href') === '#') {
       event.preventDefault();
-    }
-
-    if (isOpen) {
-      this.collapse(treeviewMenu, parentLi);
-    } else {
+      }
+   if (isOpen) {
+     this.collapse(treeviewMenu, parentLi);
+   } else {
       this.expand(treeviewMenu, parentLi);
     }
   };
