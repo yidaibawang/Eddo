@@ -135,6 +135,7 @@
     <Compile Include="Dependency\ConventionalRegistrationContext.cs" />
     <Compile Include="Dependency\DependencyLifeStyle.cs" />
     <Compile Include="Dependency\DisposableDependencyObjectWrapper.cs" />
+    <Compile Include="Dependency\EngineContext.cs" />
     <Compile Include="Dependency\IConventionalDependencyRegistrar.cs" />
     <Compile Include="Dependency\IConventionalRegistrationContext.cs" />
     <Compile Include="Dependency\IDependency.cs" />
@@ -143,6 +144,7 @@
     <Compile Include="Dependency\IIocManager.cs" />
     <Compile Include="Dependency\IIocRegistrar.cs" />
     <Compile Include="Dependency\IIocResolve.cs" />
+    <Compile Include="Dependency\ILifestyleScopedDependency.cs" />
     <Compile Include="Dependency\Installer\EddoCoreInstaller.cs" />
     <Compile Include="Dependency\IocManager.cs" />
     <Compile Include="Dependency\IocRegistrarExtensions.cs" />
@@ -152,6 +154,7 @@
     <Compile Include="Dependency\ISingletonDependency.cs" />
     <Compile Include="Dependency\ITransientDependency.cs" />
     <Compile Include="Dependency\ScopedIocResolver.cs" />
+    <Compile Include="Dependency\Singleton.cs" />
     <Compile Include="Dependency\SingletonDependency.cs" />
     <Compile Include="Domain\Entities\AggregateRoot.cs" />
     <Compile Include="Domain\Entities\Auditing\AuditFull.cs" />

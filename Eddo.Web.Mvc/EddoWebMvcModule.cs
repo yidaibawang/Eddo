@@ -2,6 +2,7 @@
 using System.Reflection;
 using System.Web.Mvc;
 using Eddo.Modules;
+using Eddo.Web.Mvc.Views;
 
 namespace Eddo.Web.Mvc
 {
@@ -11,7 +12,7 @@ namespace Eddo.Web.Mvc
         public override void PreInitialize()
         {
             IocManager.AddConventionalRegistrar(new ControllerConventionalRegistrar());
-
+            IocManager.Register<IPageHeadBuilder, PageHeadBuilder>(Dependency.DependencyLifeStyle.Singleton);
 
         }
         public override void Initialize()

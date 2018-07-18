@@ -48,6 +48,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\DoSoft.Web\Bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
@@ -75,11 +78,13 @@
     <Compile Include="Controllers\EddoHandleErrorAttribute.cs" />
     <Compile Include="EddoWebMvcModule.cs" />
     <Compile Include="Extensions\HtmlHelperResourceExtensions.cs" />
+    <Compile Include="Extensions\LayoutExtensions.cs" />
     <Compile Include="Helpers\MethodInfoHelper.cs" />
     <Compile Include="Models\ErrorViewModel.cs" />
     <Compile Include="Models\ModelStateExtensions.cs" />
     <Compile Include="Models\MvcAjaxResponse.cs" />
     <Compile Include="Models\MvcAjaxResponseOfTResult..cs" />
+    <Compile Include="Models\TreeNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\WindsorControllerFactory.cs" />
     <Compile Include="Resources\EmbeddedResourceHttpHandler.cs" />
@@ -90,6 +95,8 @@
     <Compile Include="Themes\ThemeableVirtualPathProviderViewEngine.cs" />
     <Compile Include="Views\EddoWebViewPageOfTModel.cs" />
     <Compile Include="Views\EddoWebViewPage.cs" />
+    <Compile Include="Views\IPageHeadBuilder.cs" />
+    <Compile Include="Views\PageHeadBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Eddo.Web\Eddo.Web.csproj">

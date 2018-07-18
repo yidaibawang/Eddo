@@ -27,6 +27,8 @@ namespace Eddo.Dependency
                     .LifestyleSingleton()
                 );
 
+    
+        
             //Windsor Interceptors
             context.IocManager.IocContainer.Register(
                 Classes.FromAssembly(context.Assembly)

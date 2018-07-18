@@ -1,4 +1,5 @@
-﻿@model List<DoSoft.Admin.Models.TreeNode>
+﻿@model List<Eddo.Web.Mvc.Models.TreeNode>
+@using Eddo.Web.Mvc.Extensions;
 @using Eddo.Extensions;
 @{
     //load sitemap
@@ -6,17 +7,30 @@
 
 }
 
-@helper RenderMenuItem(DoSoft.Admin.Models.TreeNode item)
+@helper RenderMenuItem(Eddo.Web.Mvc.Models.TreeNode item)
 {
-    string url = item.Url;
+string url = item.Url;
 
-    if (!item.Url.IsNullOrEmpty())
-    {
-        url =Url.Content(item.Url);
-    }
-<li class="treeview">
+var isActive = item.ContainsSystemName(Html.GetActiveMenuItemSystemName());
+if (!item.Url.IsNullOrEmpty())
+{
+           <li @(isActive ? Html.Raw("class=\"active\"") : null)>
+            <a href="@url" class="menu-item-link" >
+                @if (!String.IsNullOrEmpty(item.IconCls))
+                {
+                    <text>
+                        <i class="fa @Url.Content(item.IconCls)"></i>
+                    </text>
+                }
+                <span class="menu-item-title">@item.Name</span>
+            </a>
+        </li>
+}
 
-    <a href="@url" class="menu-item-link">
+else
+{
+<li class="treeview @(isActive ? Html.Raw("active menu-open") : null)" >
+    <a href="#">
         @if (!String.IsNullOrEmpty(item.IconCls))
         {
             <text>
@@ -42,7 +56,7 @@
         </ul>
     }
 </li>
-
+}
 }
 
 <ul class="sidebar-menu" data-widget="tree">
