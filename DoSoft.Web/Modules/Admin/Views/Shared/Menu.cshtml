@@ -1,0 +1,72 @@
+﻿@model List<Eddo.Web.Mvc.Models.TreeNode>
+@using Eddo.Web.Mvc.Extensions;
+@using Eddo.Extensions;
+@{
+    //load sitemap
+    var siteMap = Model;
+
+}
+
+@helper RenderMenuItem(Eddo.Web.Mvc.Models.TreeNode item)
+{
+string url = item.Url;
+
+var isActive = item.ContainsSystemName(Html.GetActiveMenuItemSystemName());
+if (!item.Url.IsNullOrEmpty())
+{
+           <li @(isActive ? Html.Raw("class=\"active\"") : null)>
+            <a href="@url" class="menu-item-link" >
+                @if (!String.IsNullOrEmpty(item.IconCls))
+                {
+                    <text>
+                        <i class="fa @Url.Content(item.IconCls)"></i>
+                    </text>
+                }
+                <span class="menu-item-title">@item.Name</span>
+            </a>
+        </li>
+}
+    
+else
+{
+<li class="treeview @(isActive ? Html.Raw("active menu-open") : null)" >
+    <a href="#">
+        @if (!String.IsNullOrEmpty(item.IconCls))
+        {
+            <text>
+                <i class="fa @Url.Content(item.IconCls)"></i>
+            </text>
+        }
+        <span>@item.Name</span>
+        <span class="pull-right-container">
+            @if (@item.HasChildren)
+            {
+                <i class="fa fa-angle-left pull-right"></i>
+            }
+
+        </span>
+    </a>
+    @if (@item.HasChildren)
+    {
+        <ul class="treeview-menu">
+            @foreach (var childItem in item.Items.ToList())
+            {
+                @RenderMenuItem(childItem)
+            }
+        </ul>
+    }
+</li>
+}
+}
+
+<ul class="sidebar-menu" data-widget="tree">
+    @{
+        //standard (default) items
+        var rootNode = siteMap;
+
+    }
+    @foreach (var item in rootNode[0].Items)
+    {
+        @RenderMenuItem(item)
+    }
+</ul>
