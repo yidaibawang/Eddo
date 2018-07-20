@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authorization\IUserAppServicecs.cs" />
+    <Compile Include="Authorization\UserAppServicecs.cs" />
     <Compile Include="DoSoftApplicationModule.cs" />
     <Compile Include="DosoftAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

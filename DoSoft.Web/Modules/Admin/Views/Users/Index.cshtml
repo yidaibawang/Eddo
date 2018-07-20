@@ -62,19 +62,23 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-12">
-                            @Html.EddoLabelFor(model=>model.UserName)
+                            <div class="inputs inputs-full-width">
+                                <div class="portlet-input">
+                                    <form>
+
+                                        <div class="input-group">
+                                            <input id="UsersTableFilter" name="UsersTableFilter" class="form-control" placeholder="查询" type="text" value="@Model.UserName">
+                                            <span class="input-group-btn">
+                                                <button id="GetUsersButton" class="btn default" type="submit"><i class="icon-magnifier"></i></button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                                </div>
+                          
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-7 col-md-offset-5">
-                            <button type="button" id="search-customers" class="btn btn-primary btn-search">
-                                <i class="fa fa-search"></i>
-                                 查询
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="panel panel-default">
                 <div class="panel-body">

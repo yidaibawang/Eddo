@@ -862,9 +862,7 @@ td.k-state-focused.k-state-selected {
     padding: 7px 10px;
     font-size: 18px;
 }
-.panel-search .form-control {
-    max-width: 425px;
-}
+
 .panel-search .k-multiselect.k-header {
     max-width: 423px;
 }
