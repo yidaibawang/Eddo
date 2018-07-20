@@ -92,6 +92,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Applications\Services\ApplicationService.cs" />
+    <Compile Include="Applications\Services\Dtos\ComboboxItemDto.cs" />
+    <Compile Include="Applications\Services\Dtos\EntityDto.cs" />
+    <Compile Include="Applications\Services\Dtos\IEntityDto.cs" />
+    <Compile Include="Applications\Services\Dtos\IHasTotalCount.cs" />
+    <Compile Include="Applications\Services\Dtos\IListResult.cs" />
+    <Compile Include="Applications\Services\Dtos\IPagedResult.cs" />
+    <Compile Include="Applications\Services\Dtos\IPagedResultRequest.cs" />
+    <Compile Include="Applications\Services\Dtos\IPageRequest.cs" />
+    <Compile Include="Applications\Services\Dtos\ListResultDto.cs" />
+    <Compile Include="Applications\Services\Dtos\PagedResultDto.cs" />
     <Compile Include="Applications\Services\EddoServiceBase.cs" />
     <Compile Include="Applications\Services\IApplicationService.cs" />
     <Compile Include="Auditing\IClientInfoProvider.cs" />

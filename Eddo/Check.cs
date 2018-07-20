@@ -12,7 +12,8 @@ namespace Eddo
 {
     [DebuggerStepThrough]
     public static class Check
-    {
+    {   
+
         [ContractAnnotation("value:null => halt")]
         public static T NotNull<T>(T value, [InvokerParameterName] [NotNull] string parameterName)
         {

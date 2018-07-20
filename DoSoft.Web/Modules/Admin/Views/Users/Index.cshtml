@@ -1,7 +1,112 @@
-﻿
+﻿@using Eddo.Web.Mvc.Extensions;
+@model DoSoft.Admin.Models.Users.UserListModel
 @{
     ViewBag.Title = "usersIndex";
+    Html.SetActiveMenuItemSystemName("用户信息");
+
 }
 
-<h2>usersIndex</h2>
+<div class="content-header clearfix">
+    <h1 class="pull-left">
+      用户信息
+    </h1>
+    <div class="pull-right">
+        <a href="@Url.Action("Create")" class="btn bg-blue">
+            <i class="fa fa-plus-square"></i>
+              添加
+        </a>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">
+                <i class="fa fa-download"></i>
+                导出
+            </button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">&nbsp;</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <button type="submit" name="exportxml-all">
+                        <i class="fa fa-file-code-o"></i>
+                       Xml
+                    </button>
+                </li>
+                <li>
+                    <button type="button" id="exportxml-selected">
+                        <i class="fa fa-file-code-o"></i>
+                        ExportToXml
+                    </button>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <button type="submit" name="exportexcel-all">
+                        <i class="fa fa-file-excel-o"></i>
+                        ExportToExcel
+                    </button>
+                </li>
+                <li>
+                    <button type="button" id="exportexcel-selected">
+                        <i class="fa fa-file-excel-o"></i>
+                        ExportToExcel
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default panel-search">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            @Html.EddoLabelFor(model=>model.UserName)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-5">
+                            <button type="button" id="search-customers" class="btn btn-primary btn-search">
+                                <i class="fa fa-search"></i>
+                                 查询
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="users-grid"></div>
+
+                    <script>
+                        $("#users-grid").kendoGrid({
+                            columns: [
+                                { field: "firstName", groupable: false },
+                                { field: "lastName" }, /* group by this column to see the footer template */
+                                {
+                                    field: "age",
+                                    groupable: false,
+                                    aggregates: ["count", "min", "max"],
+                                    groupFooterTemplate: "age total: #: count #, min: #: min #, max: #: max #"
+                                }
+                            ],
+                            groupable: true,
+                            dataSource: {
+                                data: [
+                                    { firstName: "Jane", lastName: "Doe", age: 30 },
+                                    { firstName: "John", lastName: "Doe", age: 33 }
+                                ]
+                            }
+                        });
+                    </script>
+                </script>
+
+             
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

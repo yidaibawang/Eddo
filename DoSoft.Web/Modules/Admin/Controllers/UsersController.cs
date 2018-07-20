@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoSoft.Admin.Models.Users;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,8 @@ namespace DoSoft.Admin.Controllers
         // GET: Users
         public ActionResult Index()
         {
-            return View();
+            var model = new UserListModel();
+            return View(model);
         }
     }
 }

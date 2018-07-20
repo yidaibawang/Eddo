@@ -77,6 +77,7 @@
     <Compile Include="Controllers\EddoController.cs" />
     <Compile Include="Controllers\EddoHandleErrorAttribute.cs" />
     <Compile Include="EddoWebMvcModule.cs" />
+    <Compile Include="Extensions\BootstrapHtmlExtensions.cs" />
     <Compile Include="Extensions\HtmlHelperResourceExtensions.cs" />
     <Compile Include="Extensions\LayoutExtensions.cs" />
     <Compile Include="Helpers\MethodInfoHelper.cs" />
