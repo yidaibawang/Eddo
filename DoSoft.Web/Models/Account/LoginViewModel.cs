@@ -10,6 +10,7 @@ namespace DoSoft.Web.Models.Account
     {
 
         [Required] 
+        [Display(Name ="用户名")]
         public string UsernameOrEmailAddress { get; set; }
 
         [Required]

@@ -1188,6 +1188,7 @@
     <Compile Include="Controllers\WidgetController.cs" />
     <Compile Include="DoSoftAdminModule.cs" />
     <Compile Include="Models\RenderWidgetModel.cs" />
+    <Compile Include="Models\Users\UserListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

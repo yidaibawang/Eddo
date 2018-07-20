@@ -1,4 +1,5 @@
 ﻿@using Eddo.Web.Mvc.Extensions;
+@model DoSoft.Admin.Models.Users.UserListModel
 @{
     ViewBag.Title = "usersIndex";
     Html.SetActiveMenuItemSystemName("用户信息");
@@ -60,7 +61,9 @@
             <div class="panel panel-default panel-search">
                 <div class="panel-body">
                     <div class="row">
-                       
+                        <div class="col-md-12">
+                            @Html.EddoLabelFor(model=>model.UserName)
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-7 col-md-offset-5">
@@ -75,9 +78,30 @@
 
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <div id="customers-grid"></div>
+                    <div id="users-grid"></div>
 
-                
+                    <script>
+                        $("#users-grid").kendoGrid({
+                            columns: [
+                                { field: "firstName", groupable: false },
+                                { field: "lastName" }, /* group by this column to see the footer template */
+                                {
+                                    field: "age",
+                                    groupable: false,
+                                    aggregates: ["count", "min", "max"],
+                                    groupFooterTemplate: "age total: #: count #, min: #: min #, max: #: max #"
+                                }
+                            ],
+                            groupable: true,
+                            dataSource: {
+                                data: [
+                                    { firstName: "Jane", lastName: "Doe", age: 30 },
+                                    { firstName: "John", lastName: "Doe", age: 33 }
+                                ]
+                            }
+                        });
+                    </script>
+                </script>
 
              
                 </div>

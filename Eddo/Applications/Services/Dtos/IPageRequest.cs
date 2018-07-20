@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Eddo.Applications.Services.Dtos
 {
-    class IPageRequest
+    public class IPageRequest
     {
+
     }
 }
