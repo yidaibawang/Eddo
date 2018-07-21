@@ -5,7 +5,7 @@ using Eddo.Reflection;
 using Eddo.Modules;
 using Eddo.Configuration;
 using Eddo.Domain.UnitOfWorks;
-
+using Eddo.Configuration.Startup;
 namespace Eddo.Dependency.Installer
 {
     public class EddoCoreInstaller : IWindsorInstaller
@@ -17,6 +17,7 @@ namespace Eddo.Dependency.Installer
             Component.For<IEddoStartupConfiguration, EddoStartupConfiguration>().ImplementedBy<EddoStartupConfiguration>().LifestyleSingleton(),      Component.For<IEventBusConfiguration, EventBusConfiguration>().ImplementedBy<EventBusConfiguration>().LifestyleSingleton(),
             Component.For<IModuleConfigurations, ModuleConfigurations>().ImplementedBy<ModuleConfigurations>().LifestyleSingleton(),
             Component.For<ITypeFinder>().ImplementedBy<TypeFinder>().LifestyleSingleton(),
+              Component.For<ISettingsConfiguration, SettingsConfiguration>().ImplementedBy<SettingsConfiguration>().LifestyleSingleton(),
             Component.For<IModuleFinder>().ImplementedBy<DefaultModuleFinder>().LifestyleTransient(),
             Component.For<IEddoModuleManager, EddoModuleManager>().ImplementedBy<EddoModuleManager>().LifestyleSingleton()
             );

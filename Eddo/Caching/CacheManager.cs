@@ -1,7 +1,8 @@
 ﻿using System;
 using Eddo.Dependency;
 using System.Collections.Concurrent;
-
+using System.Collections.Generic;
+using System.Collections.Immutable;
 namespace Eddo.Caching
 {
     public class CacheManager : ICacheManager, ISingletonDependency
@@ -15,7 +16,10 @@ namespace Eddo.Caching
             _cacheProvide = cacheProvide;
             Cachers = new ConcurrentDictionary<string, ICache>();
         }
-    
+        public IReadOnlyList<ICache> GetAllCaches()
+        {
+            return Cachers.Values.ToImmutableList();
+        }
         public ICache GetCacher(string name)
          {
             if (name == null)

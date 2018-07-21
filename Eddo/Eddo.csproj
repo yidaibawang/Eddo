@@ -74,6 +74,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.1.37.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -131,6 +135,8 @@
     <Compile Include="Collections\Extensions\ListExtensions.cs" />
     <Compile Include="Collections\Extensions\QueryableExtension.cs" />
     <Compile Include="Collections\Extensions\QueryableExtensions.cs" />
+    <Compile Include="Collections\ITypeList.cs" />
+    <Compile Include="Collections\TypeList.cs" />
     <Compile Include="Configuration\DictionaryBasedConfig.cs" />
     <Compile Include="Configuration\EventBusConfiguration.cs" />
     <Compile Include="Configuration\IDictionaryBasedConfig.cs" />
@@ -140,6 +146,11 @@
     <Compile Include="Configuration\ModuleConfigurations.cs" />
     <Compile Include="Configuration\PhoenixStartupConfiguration.cs" />
     <Compile Include="Configuration\Startup\EddoStartupConfigurationExtensions.cs" />
+    <Compile Include="Configuration\Startup\ISettingsConfiguration.cs" />
+    <Compile Include="Configuration\Startup\SettingDefinition.cs" />
+    <Compile Include="Configuration\Startup\SettingDefinitionProviderContext.cs" />
+    <Compile Include="Configuration\Startup\SettingProvider.cs" />
+    <Compile Include="Configuration\Startup\SettingsConfiguration.cs" />
     <Compile Include="Dependency\BasicConventionalRegistrar.cs" />
     <Compile Include="Dependency\ConventionalRegistrationConfig.cs" />
     <Compile Include="Dependency\ConventionalRegistrationContext.cs" />
@@ -244,6 +255,7 @@
     <Compile Include="Events\NullEventBus.cs" />
     <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Extensions\EventHandlerExtensions.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="IGuidGenerator.cs" />
@@ -279,6 +291,7 @@
     <Compile Include="Reflection\ReflectionHelper.cs" />
     <Compile Include="Reflection\TypeExtensions.cs" />
     <Compile Include="Reflection\TypeFinder.cs" />
+    <Compile Include="Reflection\TypeHelper.cs" />
     <Compile Include="Resources\Embedded\EmbeddedFilePathHelper.cs" />
     <Compile Include="Resources\Embedded\EmbeddedResourceItem.cs" />
     <Compile Include="Resources\Embedded\EmbeddedResourceManager.cs" />

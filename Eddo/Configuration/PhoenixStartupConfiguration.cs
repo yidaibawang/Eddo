@@ -1,4 +1,5 @@
-﻿using Eddo.Dependency;
+﻿using Eddo.Configuration.Startup;
+using Eddo.Dependency;
 using System;
 using System.Collections.Generic;
 
@@ -11,15 +12,19 @@ namespace Eddo.Configuration
 
         public string DefaultNameOrConnectionString { get; set; }
         public Dictionary<Type, Action> ServiceReplaceActions { get; private set; }
+
+        public ISettingsConfiguration Settings { get; private set; }
+
         public EddoStartupConfiguration(IIocManager iocManager)
         {
             IocManager = iocManager;
-     
+         
         }
         public void Initialize()
         {
             Modules = IocManager.Resolve<IModuleConfigurations>();
             ServiceReplaceActions = new Dictionary<Type, Action>();
+            Settings = IocManager.Resolve<ISettingsConfiguration>();
         }
         public void ReplaceService(Type type, Action replaceAction)
         {

@@ -30,8 +30,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\DoSoft.Web\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +66,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\EddoWebApiModuleConfiguration.cs" />
+    <Compile Include="Configuration\IEddoWebApiModuleConfiguration.cs" />
+    <Compile Include="Controllers\ApiControllerConventionalRegistrar.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\ApiControllerActionBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\ApiControllerBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\BatchApiControllerBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiControllerActionHelper.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiControllerBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiServiceNameHelper.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiVerbHelper.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\IApiControllerActionBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\IApiControllerBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Buiders\IBatchApiControllerBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Clients\ApiClientBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Clients\DynamicApiClientBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Clients\IApiClientBuilder.cs" />
+    <Compile Include="Controllers\Dynamic\Clients\IDynamicApiClient.cs" />
+    <Compile Include="Controllers\Dynamic\DynamicApiActionInfo.cs" />
+    <Compile Include="Controllers\Dynamic\DynamicApiController.cs" />
+    <Compile Include="Controllers\Dynamic\DynamicApiControllerInfo.cs" />
+    <Compile Include="Controllers\Dynamic\DynamicApiControllerManager.cs" />
+    <Compile Include="Controllers\Dynamic\Formatters\PlainTextFormatter.cs" />
+    <Compile Include="Controllers\Dynamic\IDynamicApiController.cs" />
+    <Compile Include="Controllers\Dynamic\Interceptors\EddoDynamicApiControllerInterceptor.cs" />
+    <Compile Include="Controllers\Dynamic\Scripting\IScriptProxyGenerator.cs" />
+    <Compile Include="Controllers\Dynamic\Scripting\ProxyScriptType.cs" />
+    <Compile Include="Controllers\Dynamic\Selectors\DynamicHttpActionDescriptor.cs" />
+    <Compile Include="Controllers\Dynamic\Selectors\DynamicHttpControllerDescriptor.cs" />
+    <Compile Include="Controllers\Dynamic\Selectors\EddoApiControllerActionSelector.cs" />
+    <Compile Include="Controllers\Dynamic\Selectors\EddoHttpControllerSelector.cs" />
+    <Compile Include="Controllers\Dynamic\Selectors\HttpVerbExtensions.cs" />
+    <Compile Include="Controllers\EddoApiController.cs" />
+    <Compile Include="Controllers\EddoApiControllerActivator.cs" />
+    <Compile Include="Controllers\Filters\EddoExceptionFilterAttribute.cs" />
+    <Compile Include="Controllers\Runtime\Caching\EddoCacheController.cs" />
+    <Compile Include="Controllers\Runtime\Caching\ClearAllCacheModel.cs" />
+    <Compile Include="Controllers\Runtime\Caching\ClearCacheModel.cs" />
+    <Compile Include="Controllers\Runtime\Caching\ClearCacheSettingNames.cs" />
+    <Compile Include="Controllers\Runtime\Caching\ClearCacheSettingProvider.cs" />
+    <Compile Include="EddoWebApiModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Eddo.Web\Eddo.Web.csproj">
+      <Project>{f4e2f652-0e1c-4f87-a43d-c4f6164e8e32}</Project>
+      <Name>Eddo.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eddo\Eddo.csproj">
+      <Project>{E367DA67-B4D5-473B-9F53-80B08672626D}</Project>
+      <Name>Eddo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
