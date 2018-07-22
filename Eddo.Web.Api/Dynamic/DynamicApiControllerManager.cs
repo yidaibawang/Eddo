@@ -1,0 +1,45 @@
+﻿using Eddo.Extensions;
+using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+
+namespace Eddo.WebApi.Dynamic
+{   
+
+    internal static class DynamicApiControllerManager
+    {    
+        /// <summary>
+        /// 管理集合
+        /// </summary>
+        private static readonly IDictionary<string, DynamicApiControllerInfo> DynamicApiControllers;
+
+        static DynamicApiControllerManager()
+        {
+            DynamicApiControllers = new Dictionary<string, DynamicApiControllerInfo>(StringComparer.InvariantCultureIgnoreCase);
+        }
+
+        /// <summary>
+        /// Registers given controller info to be found later.
+        /// </summary>
+        /// <param name="controllerInfo">Controller info</param>
+        public static void Register(DynamicApiControllerInfo controllerInfo)
+        {
+            DynamicApiControllers[controllerInfo.ServiceName] = controllerInfo;
+        }
+
+        /// <summary>
+        /// Searches and returns a dynamic api controller for given name.
+        /// </summary>
+        /// <param name="controllerName">Name of the controller</param>
+        /// <returns>Controller info</returns>
+        public static DynamicApiControllerInfo FindOrNull(string controllerName)
+        {
+            return DynamicApiControllers.GetOrDefault(controllerName);
+        }
+
+        public static IReadOnlyList<DynamicApiControllerInfo> GetAll()
+        {
+            return DynamicApiControllers.Values.ToImmutableList();
+        }
+    }
+}

@@ -18,6 +18,7 @@ namespace Admin
 
         public override void RegisterArea(AreaRegistrationContext context)
         {
+            context.Routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             context.MapRoute(
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",

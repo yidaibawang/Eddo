@@ -26,15 +26,15 @@
         <div class="logo">
             <a href="javascript:void(0);">AbpProjectName</a>
         </div>
-  
+
         @RenderBody()
         <div class="row">
             <div class="col-xs-12 text-center" style="color: #e9e9e9">
                 <small>&copy; @DateTime.Now.Year AbpProjectName. <b>Version </b></small>
             </div>
         </div>
-</div>
-  
+    </div>
+
     @Html.IncludeScript(ScriptPaths.Json2)
     @Html.IncludeScript(ScriptPaths.JQuery)
     @Html.IncludeScript(ScriptPaths.JQuery_Migrate)
@@ -54,10 +54,11 @@
     @Html.IncludeScript(ScriptPaths.JQuery_Validation)
 
     @Html.IncludeScript("~/metronic/assets/global/scripts/app.js")
+    @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
     <script type="text/javascript">
         App.setAssetsPath(abp.appPath + 'metronic/assets/');
     </script>
-    @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
+
     @RenderSection("scripts", required: false)
     <script>
         jQuery(document).ready(function () {

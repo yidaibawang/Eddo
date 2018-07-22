@@ -1,19 +1,26 @@
 ﻿@using Eddo.Web.Mvc.Extensions;
 @model DoSoft.Admin.Models.Users.UserListModel
 @{
+    /**/
+
     ViewBag.Title = "usersIndex";
     Html.SetActiveMenuItemSystemName("用户信息");
 
 }
+@section Scripts
+{
+
+    @Html.IncludeScript("~/Modules/Admin/Views/Users/Index.js")
+}
 
 <div class="content-header clearfix">
     <h1 class="pull-left">
-      用户信息
+        用户信息
     </h1>
     <div class="pull-right">
         <a href="@Url.Action("Create")" class="btn bg-blue">
             <i class="fa fa-plus-square"></i>
-              添加
+            添加
         </a>
         <div class="btn-group">
             <button type="button" class="btn btn-success">
@@ -28,7 +35,7 @@
                 <li>
                     <button type="submit" name="exportxml-all">
                         <i class="fa fa-file-code-o"></i>
-                       Xml
+                        Xml
                     </button>
                 </li>
                 <li>
@@ -75,39 +82,15 @@
                                     </form>
                                 </div>
                             </div>
-                                </div>
-                          
-                            </div>
                         </div>
 
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div id="users-grid"></div>
+                    </div>
+                </div>
 
-                    <script>
-                        $("#users-grid").kendoGrid({
-                            columns: [
-                                { field: "firstName", groupable: false },
-                                { field: "lastName" }, /* group by this column to see the footer template */
-                                {
-                                    field: "age",
-                                    groupable: false,
-                                    aggregates: ["count", "min", "max"],
-                                    groupFooterTemplate: "age total: #: count #, min: #: min #, max: #: max #"
-                                }
-                            ],
-                            groupable: true,
-                            dataSource: {
-                                data: [
-                                    { firstName: "Jane", lastName: "Doe", age: 30 },
-                                    { firstName: "John", lastName: "Doe", age: 33 }
-                                ]
-                            }
-                        });
-                    </script>
-          
-
-         
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="users-grid"></div>
+                    </div>
                 </div>
             </div>
         </div>

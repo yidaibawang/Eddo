@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoSoft.Web", "DoSoft.Web\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoSoft.Admin", "DoSoft.Web\Modules\Admin\DoSoft.Admin.csproj", "{3A1E262A-E9D9-406E-8BEF-12EDBB1FFB6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoSoft.WebApi", "DoSoft.WebApi\DoSoft.WebApi.csproj", "{6A58F036-D736-4F9F-9FF7-0728CB2F53BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{3A1E262A-E9D9-406E-8BEF-12EDBB1FFB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1E262A-E9D9-406E-8BEF-12EDBB1FFB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1E262A-E9D9-406E-8BEF-12EDBB1FFB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A58F036-D736-4F9F-9FF7-0728CB2F53BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A58F036-D736-4F9F-9FF7-0728CB2F53BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A58F036-D736-4F9F-9FF7-0728CB2F53BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A58F036-D736-4F9F-9FF7-0728CB2F53BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{8A5C5EEC-8EF3-471E-8F3C-8097D379306B} = {13D161AC-56FB-4555-8558-C19B1B7BCF42}
 		{A081CF0F-5BC2-42BA-8197-11C43F297D30} = {8A5C5EEC-8EF3-471E-8F3C-8097D379306B}
 		{3A1E262A-E9D9-406E-8BEF-12EDBB1FFB6A} = {8A5C5EEC-8EF3-471E-8F3C-8097D379306B}
+		{6A58F036-D736-4F9F-9FF7-0728CB2F53BA} = {13D161AC-56FB-4555-8558-C19B1B7BCF42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1074E54-638D-4D35-8819-99A6AED3A0B6}

@@ -16,10 +16,10 @@ namespace DoSoft.Web
 
             //ASP.NET Web API Route Config
             routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
-                );
+                    name: "DefaultApi",
+                    routeTemplate: "api/{controller}/{id}",
+                    defaults: new { id = RouteParameter.Optional }
+                    );
             //ASP.NET Web Route Config
             routes.MapRoute(
                 name: "Default",

@@ -100,10 +100,12 @@
     <Compile Include="Applications\Services\Dtos\EntityDto.cs" />
     <Compile Include="Applications\Services\Dtos\IEntityDto.cs" />
     <Compile Include="Applications\Services\Dtos\IHasTotalCount.cs" />
+    <Compile Include="Applications\Services\Dtos\ILimitedResultRequest.cs" />
     <Compile Include="Applications\Services\Dtos\IListResult.cs" />
     <Compile Include="Applications\Services\Dtos\IPagedResult.cs" />
     <Compile Include="Applications\Services\Dtos\IPagedResultRequest.cs" />
     <Compile Include="Applications\Services\Dtos\IPageRequest.cs" />
+    <Compile Include="Applications\Services\Dtos\ISortedResultRequest.cs" />
     <Compile Include="Applications\Services\Dtos\ListResultDto.cs" />
     <Compile Include="Applications\Services\Dtos\PagedResultDto.cs" />
     <Compile Include="Applications\Services\EddoServiceBase.cs" />
@@ -308,6 +310,7 @@
     <Compile Include="Runtime\Session\IPrincipalAccessor.cs" />
     <Compile Include="Runtime\Session\NullEddoSession.cs" />
     <Compile Include="Runtime\Validation\EddoValidationException.cs" />
+    <Compile Include="Runtime\Validation\IShouldNormalize.cs" />
     <Compile Include="SequentialGuidGenerator.cs" />
     <Compile Include="Threading\LockExtensions.cs" />
     <Compile Include="UI\UserFriendlyException.cs" />

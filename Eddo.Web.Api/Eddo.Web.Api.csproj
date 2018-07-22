@@ -40,7 +40,8 @@
       <HintPath>..\DoSoft.Web\Bin\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -66,45 +67,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\EddoWebApiModuleConfiguration.cs" />
-    <Compile Include="Configuration\IEddoWebApiModuleConfiguration.cs" />
-    <Compile Include="Controllers\ApiControllerConventionalRegistrar.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\ApiControllerActionBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\ApiControllerBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\BatchApiControllerBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiControllerActionHelper.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiControllerBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiServiceNameHelper.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\DynamicApiVerbHelper.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\IApiControllerActionBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\IApiControllerBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Buiders\IBatchApiControllerBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Clients\ApiClientBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Clients\DynamicApiClientBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Clients\IApiClientBuilder.cs" />
-    <Compile Include="Controllers\Dynamic\Clients\IDynamicApiClient.cs" />
-    <Compile Include="Controllers\Dynamic\DynamicApiActionInfo.cs" />
-    <Compile Include="Controllers\Dynamic\DynamicApiController.cs" />
-    <Compile Include="Controllers\Dynamic\DynamicApiControllerInfo.cs" />
-    <Compile Include="Controllers\Dynamic\DynamicApiControllerManager.cs" />
-    <Compile Include="Controllers\Dynamic\Formatters\PlainTextFormatter.cs" />
-    <Compile Include="Controllers\Dynamic\IDynamicApiController.cs" />
-    <Compile Include="Controllers\Dynamic\Interceptors\EddoDynamicApiControllerInterceptor.cs" />
-    <Compile Include="Controllers\Dynamic\Scripting\IScriptProxyGenerator.cs" />
-    <Compile Include="Controllers\Dynamic\Scripting\ProxyScriptType.cs" />
-    <Compile Include="Controllers\Dynamic\Selectors\DynamicHttpActionDescriptor.cs" />
-    <Compile Include="Controllers\Dynamic\Selectors\DynamicHttpControllerDescriptor.cs" />
-    <Compile Include="Controllers\Dynamic\Selectors\EddoApiControllerActionSelector.cs" />
-    <Compile Include="Controllers\Dynamic\Selectors\EddoHttpControllerSelector.cs" />
-    <Compile Include="Controllers\Dynamic\Selectors\HttpVerbExtensions.cs" />
-    <Compile Include="Controllers\EddoApiController.cs" />
-    <Compile Include="Controllers\EddoApiControllerActivator.cs" />
-    <Compile Include="Controllers\Filters\EddoExceptionFilterAttribute.cs" />
-    <Compile Include="Controllers\Runtime\Caching\EddoCacheController.cs" />
-    <Compile Include="Controllers\Runtime\Caching\ClearAllCacheModel.cs" />
-    <Compile Include="Controllers\Runtime\Caching\ClearCacheModel.cs" />
-    <Compile Include="Controllers\Runtime\Caching\ClearCacheSettingNames.cs" />
-    <Compile Include="Controllers\Runtime\Caching\ClearCacheSettingProvider.cs" />
+    <Compile Include="Config\EddoWebApiConfigurationExtensions.cs" />
+    <Compile Include="Dynamic\ApiControllerConventionalRegistrar.cs" />
+    <Compile Include="Dynamic\Buider\ApiControllerActionBuilder.cs" />
+    <Compile Include="Dynamic\Buider\ApiControllerBuilder.cs" />
+    <Compile Include="Dynamic\Buider\BatchApiControllerBuilder.cs" />
+    <Compile Include="Dynamic\Buider\DynamicApiControllerBuilder.cs" />
+    <Compile Include="Dynamic\Buider\DynamicApiVerbHelper.cs" />
+    <Compile Include="Dynamic\Buider\IApiControllerActionBuilder.cs" />
+    <Compile Include="Dynamic\Buider\IApiControllerBuilder.cs" />
+    <Compile Include="Dynamic\Buider\IBatchApiControllerBuilder.cs" />
+    <Compile Include="Dynamic\DynamicApiActionInfo.cs" />
+    <Compile Include="Dynamic\DynamicApiController.cs" />
+    <Compile Include="Dynamic\DynamicApiControllerActionHelper.cs" />
+    <Compile Include="Dynamic\DynamicApiControllerInfo.cs" />
+    <Compile Include="Dynamic\DynamicApiControllerManager.cs" />
+    <Compile Include="Dynamic\DynamicApiServiceNameHelper.cs" />
+    <Compile Include="Dynamic\Formatters\PlainTextFormatter.cs" />
+    <Compile Include="Dynamic\IDynamicApiController.cs" />
+    <Compile Include="Dynamic\Interceptors\EddoDynamicApiControllerInterceptor.cs" />
+    <Compile Include="Dynamic\IEddoWebApiModuleConfiguration.cs" />
+    <Compile Include="Dynamic\EddoWebApiModuleConfiguration.cs" />
+    <Compile Include="Dynamic\Scripting\ActionScriptingHelper.cs" />
+    <Compile Include="Dynamic\Scripting\IScriptProxyGenerator.cs" />
+    <Compile Include="Dynamic\Scripting\Jquery\JQueryActionScriptGenerator.cs" />
+    <Compile Include="Dynamic\Scripting\Jquery\JQueryProxyGenerator.cs" />
+    <Compile Include="Dynamic\Scripting\EddoServiceProxiesController.cs" />
+    <Compile Include="Dynamic\Scripting\ProxyScriptType.cs" />
+    <Compile Include="Dynamic\Scripting\ScriptProxyManager.cs" />
+    <Compile Include="Dynamic\Selectors\DynamicHttpActionDescriptor.cs" />
+    <Compile Include="Dynamic\Selectors\DynamicHttpControllerDescriptor.cs" />
+    <Compile Include="Dynamic\Selectors\HttpVerbExtensions.cs" />
+    <Compile Include="Dynamic\Selectors\EddoApiControllerActionSelector.cs" />
+    <Compile Include="Dynamic\Selectors\EddoHttpControllerSelector.cs" />
+    <Compile Include="EddoApiControllerActivator.cs" />
+    <Compile Include="EddoWebApiController.cs" />
     <Compile Include="EddoWebApiModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

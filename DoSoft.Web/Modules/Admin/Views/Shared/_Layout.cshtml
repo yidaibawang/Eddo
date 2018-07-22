@@ -1,4 +1,5 @@
 ﻿@using Eddo.Web.Mvc.Extensions
+@using DoSoft.Web;
 @{
     var kendoVersion = "2014.1.318";
 }
@@ -11,7 +12,6 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
-
     @Html.IncludeStyle("~/libs/bootstrap/css/bootstrap.min.css")
     @Html.IncludeStyle("~/Modules/Admin/Content/adminLTE/css/AdminLTE.css")
     @Html.IncludeStyle("~/Modules/Admin/Content/adminLTE/css/skins/_all-skins.min.css")
@@ -24,6 +24,14 @@
     @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.default.min.css", kendoVersion))
     @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.common.min.css", kendoVersion))
     @Html.IncludeStyle("~/Modules/Admin/Content/styles.css")
+
+    @Html.IncludeStyle(StylePaths.Roboto)
+
+    @Html.IncludeStyle(StylePaths.JQuery_Uniform)
+
+    @Html.IncludeStyle(StylePaths.Sweetalert)
+
+
     <!-- Morris chart -->
     @*<link rel="stylesheet" href="bower_components/morris.js/morris.css">*@
     <!-- jvectormap -->
@@ -36,13 +44,38 @@
 
     <!-- bootstrap wysihtml5 - text editor -->
     @Html.IncludeStyle("~/libs/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css")
-
+    <script type="text/javascript">
+        @* This is used to get the application's root path from javascript.
+        It's useful if you're running application in a virtual directory under IIS. *@
+        var abp = abp || {}; abp.appPath = '@ApplicationPath';
+    </script>
     <!-- ./wrapper -->
     <!-- jQuery 3 -->
+
     @Html.IncludeScript("~/libs/jquery/jquery.min.js")
     @Html.IncludeScript("~/libs/bootstrap/js/bootstrap.min.js")
     <!-- jQuery UI 1.11.4 -->
     @Html.IncludeScript("~/libs/jquery-ui/jquery-ui.min.js")
+    @Html.IncludeScript(ScriptPaths.Json2)
+
+    @Html.IncludeScript(ScriptPaths.JQuery_Migrate)
+    @Html.IncludeScript(ScriptPaths.JQuery_BlockUi)
+    @Html.IncludeScript(ScriptPaths.JQuery_Uniform)
+    @Html.IncludeScript(ScriptPaths.Toastr)
+    @Html.IncludeScript(ScriptPaths.SpinJs)
+    @Html.IncludeScript(ScriptPaths.SpinJs_JQuery)
+    @Html.IncludeScript(ScriptPaths.SweetAlert)
+    @Html.IncludeScript(ScriptPaths.Abp)
+    @Html.IncludeScript(ScriptPaths.Abp_JQuery)
+    @Html.IncludeScript(ScriptPaths.Abp_BlockUi)
+    @Html.IncludeScript(ScriptPaths.Abp_SpinJs)
+    @Html.IncludeScript(ScriptPaths.Abp_Toastr)
+    @Html.IncludeScript(ScriptPaths.Abp_SweetAlert)
+    @Html.IncludeScript(ScriptPaths.JQuery_Validation)
+
+    @Html.IncludeScript("~/metronic/assets/global/scripts/app.js")
+    @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
+    <script src="~/api/EddoServiceProxies/GetAll"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button);
@@ -67,7 +100,6 @@
 
     <!-- Bootstrap WYSIHTML5 -->
     @Html.IncludeScript("~/libs/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js")
-    @Html.IncludeScript("~/libs/jquery-ui/jquery-ui.min.js")
     <!-- Slimscroll -->
     @Html.IncludeScript("~/libs/jquery-slimscroll/jquery.slimscroll.min.js")
     <!-- FastClick -->
@@ -84,7 +116,6 @@
     @Html.IncludeScript("~/Modules/Admin/Scripts/admin.navigation.js")
     @Html.IncludeScript("~/Modules/Admin/Scripts/admin.common.js")
     @Html.IncludeScript("~/Modules/Admin/Content/adminLTE/js/adminlte.js")
-
     @Html.IncludeScript("~/Modules/Admin/Content/adminLTE/js/demo.js")
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -94,7 +125,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Google Font -->
-    @RenderSection("script", false)
+
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -591,6 +622,6 @@
 
         });
     </script>
-
+    @RenderSection("Scripts", false)
 </body>
 </html>

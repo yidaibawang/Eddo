@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Eddo.Applications.Services.Dtos
 {
-    public interface IPagedResultRequest
+    public interface IPagedResultRequest: ILimitedResultRequest
     {
+        int SkipCount { get; set; }
     }
 }
