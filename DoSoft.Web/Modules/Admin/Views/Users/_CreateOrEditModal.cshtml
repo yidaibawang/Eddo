@@ -1,0 +1,84 @@
+﻿@using DoSoft.Admin.Models.Common;
+@using Eddo.Extensions;
+@model DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+@{
+    ViewBag.Title = "CreateOrEditModal";
+}
+@Html.Partial("~/Modules/Admin/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel("新建用户"))
+
+<div class="modal-body">
+
+    <form name="UserInformationsForm" role="form" novalidate class="form-validation">
+
+        @if (Model.IsEditMode)
+        {
+            <input type="hidden" name="Id" value="@Model.Id" />
+        }
+
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control@(Model.Name.IsNullOrEmpty() ? "" : " edited")" value="@Model.Name" type="text" name="Name" required maxlength="@DoSoft.Core.UserManagerment.User.MaxNameLength">
+            <label>名称</label>
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input type="email" name="EmailAddress" class="form-control@(Model.EmailAddress.IsNullOrEmpty() ? "" : " edited")" value="@Model.EmailAddress" required maxlength="@DoSoft.Core.UserManagerment.User.MaxEmailAddressLength">
+            <label>Email</label>
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input type="text" name="PhoneNumber" class="form-control@(Model.PhoneNumber.IsNullOrEmpty() ? "" : " edited")" value="@Model.PhoneNumber" maxlength="@DoSoft.Core.UserManagerment.User.MaxPhoneNumberLength">
+            <label>电话</label>
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label">
+            <input type="text"  disabled="disabled" name="UserName" class="form-control@(Model.EmailAddress.IsNullOrEmpty() ? "" : " edited")" value="@Model.UserName" required maxlength="@DoSoft.Core.UserManagerment.User.MaxUserNameLength">
+            <label>用户名</label>
+     
+        </div>
+
+   
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint" style="@(Model.IsEditMode ? "display:block" : "display:none")">
+            <input id="EditUser_Password" type="password" name="Password" class="form-control" maxlength="@DoSoft.Core.UserManagerment.User.MaxPlainPasswordLength" minlength="@DoSoft.Core.UserManagerment.User.MinPlainPasswordLength">
+            <label>密码</label>
+        </div>
+
+        <div class="form-group form-md-line-input form-md-floating-label no-hint" style="@(Model.IsEditMode ? "display:block" : "display:none")">
+            <input type="password" name="PasswordRepeat" class="form-control" maxlength="@DoSoft.Core.UserManagerment.User.MaxPlainPasswordLength" minlength="@DoSoft.Core.UserManagerment.User.MinPlainPasswordLength" equalto="#EditUser_Password">
+            <label>重复密码</label>
+        </div>
+
+        <div class="md-checkbox-list">
+            <div class="md-checkbox">
+                <input id="EditUser_ShouldChangePasswordOnNextLogin" class="md-check" type="checkbox" name="ShouldChangePasswordOnNextLogin" value="true" @Html.Raw(Model.ShouldChangePasswordOnNextLogin ? "checked=\"checked\"" : "")>
+                <label for="EditUser_ShouldChangePasswordOnNextLogin">
+                    <span class="inc"></span>
+                    <span class="check"></span>
+                    <span class="box"></span>
+                   是否改变密码
+                </label>
+            </div>
+            <div class="md-checkbox">
+                <input id="EditUser_SendActivationEmail" class="md-check" type="checkbox" name="SendActivationEmail" value="true" @Html.Raw(Model.IsEditMode ? "" : "checked=\"checked\"")>
+                <label for="EditUser_SendActivationEmail">
+                    <span class="inc"></span>
+                    <span class="check"></span>
+                    <span class="box"></span>
+                   发送激活邮件
+                </label>
+            </div>
+            <div class="md-checkbox">
+                <input id="EditUser_IsActive" class="md-check" type="checkbox" name="IsActive" value="true" @Html.Raw(Model.IsActive ? "checked=\"checked\"" : "")>
+                <label for="EditUser_IsActive">
+                    <span class="inc"></span>
+                    <span class="check"></span>
+                    <span class="box"></span>
+                  激活
+                </label>
+            </div>
+        </div>
+
+    </form>
+</div>
+@Html.Partial("~/Modules/Admin/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

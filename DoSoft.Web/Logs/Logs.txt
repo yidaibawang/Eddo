@@ -10828,3 +10828,233 @@ System.Web.HttpCompileException (0x80004005): D:\dev\Eddo\Dosoft.Web\Modules\Adm
    在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
    在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
    在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-23 20:01:04,154 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-23 20:01:06,664 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-23 20:01:06,667 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,669 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,669 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,670 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,670 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,670 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,670 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,670 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,671 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,671 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,671 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,671 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,672 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,672 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,672 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 20:01:06,676 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-23 20:01:12,009 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 2 classes define auto mapping attributes
+DEBUG 2018-07-23 20:01:12,009 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-23 20:01:12,013 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-23 21:22:37,243 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-23 21:22:47,011 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-23 21:22:47,014 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,016 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,016 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,017 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,018 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 21:22:47,024 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-23 21:22:51,629 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 2 classes define auto mapping attributes
+DEBUG 2018-07-23 21:22:51,629 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-23 21:22:51,632 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-23 22:42:56,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-23 22:43:31,624 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-23 22:43:31,695 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,697 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,697 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,698 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,699 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,699 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,699 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,699 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,699 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,700 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 22:43:31,704 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-23 22:44:02,155 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 2 classes define auto mapping attributes
+DEBUG 2018-07-23 22:44:02,155 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-23 22:44:02,158 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-23 22:44:26,929 [5    ] Mvc.Controllers.EddoHandleErrorAttribute - C:\Users\dosoft\AppData\Local\Temp\Temporary ASP.NET Files\vs\2c12e50f\1a508a78\App_Web_createoreditmodal.cshtml.dd9735c5.ol_mobbj.0.cs(42): error CS1003: Syntax error, ',' expected
+System.Web.HttpCompileException (0x80004005): C:\Users\dosoft\AppData\Local\Temp\Temporary ASP.NET Files\vs\2c12e50f\1a508a78\App_Web_createoreditmodal.cshtml.dd9735c5.ol_mobbj.0.cs(42): error CS1003: Syntax error, ',' expected
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-23 22:44:35,207 [5    ] Mvc.Controllers.EddoHandleErrorAttribute - C:\Users\dosoft\AppData\Local\Temp\Temporary ASP.NET Files\vs\2c12e50f\1a508a78\App_Web_createoreditmodal.cshtml.dd9735c5.ol_mobbj.0.cs(42): error CS1003: Syntax error, ',' expected
+System.Web.HttpCompileException (0x80004005): C:\Users\dosoft\AppData\Local\Temp\Temporary ASP.NET Files\vs\2c12e50f\1a508a78\App_Web_createoreditmodal.cshtml.dd9735c5.ol_mobbj.0.cs(42): error CS1003: Syntax error, ',' expected
+   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-23 22:45:15,314 [6    ] Mvc.Controllers.EddoHandleErrorAttribute - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP._Page_Modules_Admin_Views_Users_CreateOrEditModal_cshtml.Execute() 位置 D:\Source\平台框架\Eddo\DoSoft.Web\Modules\Admin\Views\Users\CreateOrEditModal.cshtml:行号 14
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-23 23:05:27,120 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-23 23:05:41,291 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-23 23:05:41,303 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,305 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,305 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,305 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,305 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,305 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,306 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,307 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,307 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,307 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,307 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:05:41,313 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-23 23:05:53,885 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 3 classes define auto mapping attributes
+DEBUG 2018-07-23 23:05:53,885 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-23 23:05:53,889 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-23 23:05:53,889 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-23 23:06:06,056 [5    ] Mvc.Controllers.EddoHandleErrorAttribute - 未找到分部视图“_CreateOrEditModal”或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~//Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Views/Users/_CreateOrEditModal.cshtml
+~/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Adminn/Views/Users/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+System.InvalidOperationException: 未找到分部视图“_CreateOrEditModal”或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~//Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Views/Users/_CreateOrEditModal.cshtml
+~/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Adminn/Views/Users/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+   在 System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-23 23:06:10,484 [9    ] Mvc.Controllers.EddoHandleErrorAttribute - 未找到分部视图“_CreateOrEditModal”或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~//Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Views/Users/_CreateOrEditModal.cshtml
+~/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Adminn/Views/Users/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+System.InvalidOperationException: 未找到分部视图“_CreateOrEditModal”或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~//Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Users/_CreateOrEditModal.cshtml
+~/Areas/Admin/Views/Shared/_CreateOrEditModal.cshtml
+~/Themes//Views/Users/_CreateOrEditModal.cshtml
+~/Themes//Views/Shared/_CreateOrEditModal.cshtml
+~/Views/Users/_CreateOrEditModal.cshtml
+~/Views/Shared/_CreateOrEditModal.cshtml
+~/Modules/Adminn/Views/Users/_CreateOrEditModal.cshtml
+~/Modules/Admin/Views/Shared/_CreateOrEditModal.cshtml
+   在 System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-23 23:07:46,211 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-23 23:08:01,085 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-23 23:08:01,113 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,116 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,117 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,118 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,118 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-23 23:08:01,128 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-23 23:08:13,064 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 3 classes define auto mapping attributes
+DEBUG 2018-07-23 23:08:13,064 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-23 23:08:13,068 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-23 23:08:13,068 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto

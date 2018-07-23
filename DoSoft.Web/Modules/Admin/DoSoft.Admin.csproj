@@ -1198,6 +1198,7 @@
     <Compile Include="DoSoftAdminModule.cs" />
     <Compile Include="Models\Common\ModalHeaderViewModel.cs" />
     <Compile Include="Models\RenderWidgetModel.cs" />
+    <Compile Include="Models\Users\CreateOrEditUserModalViewModel.cs" />
     <Compile Include="Models\Users\UserListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\DoSoftWebAdminViewPageBase.cs" />
@@ -1307,7 +1308,7 @@
     <Content Include="Views\Shared\Menu.cshtml" />
     <Content Include="Views\Shared\Notifications.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
-    <Content Include="Views\Users\CreateOrEditModal.cshtml" />
+    <Content Include="Views\Users\_CreateOrEditModal.cshtml" />
     <Content Include="Views\Common\Modals\Empty\_Empty.cshtml" />
     <Content Include="Views\Common\Modals\_LookupModal.cshtml" />
     <Content Include="Views\Common\Modals\_ModalFooterWithSaveAndCancel.cshtml" />
@@ -1339,6 +1340,10 @@
     <ProjectReference Include="..\..\..\DoSoft.WebApi\DoSoft.WebApi.csproj">
       <Project>{6a58f036-d736-4f9f-9ff7-0728cb2f53ba}</Project>
       <Name>DoSoft.WebApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Eddo.AutoMapper\Eddo.AutoMapper.csproj">
+      <Project>{bc14d32e-deab-4a16-8669-1aa49b8ce0b9}</Project>
+      <Name>Eddo.AutoMapper</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Eddo.Permissions\Eddo.Permissions.csproj">
       <Project>{A3975233-746E-4E93-A05F-1853CBDB939C}</Project>

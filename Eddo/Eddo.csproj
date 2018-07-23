@@ -107,6 +107,7 @@
     <Compile Include="Applications\Services\Dtos\IPageRequest.cs" />
     <Compile Include="Applications\Services\Dtos\ISortedResultRequest.cs" />
     <Compile Include="Applications\Services\Dtos\ListResultDto.cs" />
+    <Compile Include="Applications\Services\Dtos\NullableIdDto.cs" />
     <Compile Include="Applications\Services\Dtos\PagedResultDto.cs" />
     <Compile Include="Applications\Services\EddoServiceBase.cs" />
     <Compile Include="Applications\Services\IApplicationService.cs" />

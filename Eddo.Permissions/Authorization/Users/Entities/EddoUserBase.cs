@@ -45,11 +45,12 @@ namespace Eddo.Permissions.Authorization.Users
         /// </summary>
         public const int MaxPasswordLength = 128;
 
+        public const int MaxPhoneNumberLength = 28;
         /// <summary>
         /// 最大验证密码长度
         /// </summary>
         public const int MaxPlainPasswordLength = 32;
-
+        public const int MinPlainPasswordLength = 6;
         /// <summary>
         /// 最大邮箱长度
         /// </summary>

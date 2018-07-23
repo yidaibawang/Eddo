@@ -51,5 +51,31 @@ namespace DoSoft.Application.Authorization
                 userListDtos
                 );
         }
+        public async Task<GetUserForEditOutput> GetUserForEdit(NullableIdDto<long> input)
+        {
+            var output = new GetUserForEditOutput();
+            if (!input.Id.HasValue)
+            {
+                //Creating a new user
+                output= new GetUserForEditOutput
+                {
+                    IsActive = true,
+                    ShouldChangePasswordOnNextLogin = true
+            
+                };
+
+            }
+            else
+            {
+                //Editing an existing user
+                var user = await UserManager.GetUserByIdAsync(input.Id.Value);
+
+                output= user.MapTo<GetUserForEditOutput>();
+          
+            }
+
+            return output;
+
+        }
     }
 }

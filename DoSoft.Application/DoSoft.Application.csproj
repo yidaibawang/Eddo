@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConsts.cs" />
+    <Compile Include="Authorization\Dto\GetUserForEditOutput.cs" />
     <Compile Include="Authorization\Dto\GetUsersInput.cs" />
+    <Compile Include="Authorization\Dto\UserEditDto.cs" />
     <Compile Include="Authorization\Dto\UserListDto.cs" />
     <Compile Include="Authorization\IUserAppServicecs.cs" />
     <Compile Include="Authorization\UserAppServicecs.cs" />

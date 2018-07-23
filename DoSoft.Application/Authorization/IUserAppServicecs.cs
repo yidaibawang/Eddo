@@ -12,5 +12,6 @@ namespace DoSoft.Application.Authorization
     public  interface IUserAppServicecs: IApplicationService
     {
         Task<PagedResultDto<UserListDto>> GetUsers(GetUsersInput input);
+        Task<GetUserForEditOutput> GetUserForEdit(NullableIdDto<long> input);
     }
 }
