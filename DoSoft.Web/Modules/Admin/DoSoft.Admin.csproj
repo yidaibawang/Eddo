@@ -1183,7 +1183,11 @@
     <Content Include="Scripts\tagEditor\jquery.tag-editor.js" />
     <Content Include="Scripts\tagEditor\jquery.tag-editor.min.js" />
     <Content Include="Scripts\typeahead\typeahead.bundle.min.js" />
+    <Content Include="Views\Common\Modals\Empty\README.txt" />
+    <Content Include="Views\Common\Modals\Empty\_Empty.js" />
+    <Content Include="Views\Common\Modals\_LookupModal.js" />
     <Content Include="Views\Users\Index.js" />
+    <Content Include="Views\Users\_CreateOrEditModal.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1192,6 +1196,7 @@
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\WidgetController.cs" />
     <Compile Include="DoSoftAdminModule.cs" />
+    <Compile Include="Models\Common\ModalHeaderViewModel.cs" />
     <Compile Include="Models\RenderWidgetModel.cs" />
     <Compile Include="Models\Users\UserListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1302,6 +1307,11 @@
     <Content Include="Views\Shared\Menu.cshtml" />
     <Content Include="Views\Shared\Notifications.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Users\CreateOrEditModal.cshtml" />
+    <Content Include="Views\Common\Modals\Empty\_Empty.cshtml" />
+    <Content Include="Views\Common\Modals\_LookupModal.cshtml" />
+    <Content Include="Views\Common\Modals\_ModalFooterWithSaveAndCancel.cshtml" />
+    <Content Include="Views\Common\Modals\_ModalHeader.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

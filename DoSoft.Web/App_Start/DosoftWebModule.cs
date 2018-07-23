@@ -41,7 +41,7 @@ namespace DoSoft.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             //Bundling
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            
+            CommonBundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }

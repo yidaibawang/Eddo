@@ -13,6 +13,8 @@
     @Html.IncludeStyle(StylePaths.Sweetalert)
     @Html.IncludeStyle(StylePaths.style)
     @Html.IncludeStyle(StylePaths.materialize)
+
+    @Html.IncludeStyle("~/Common/Styles/core.min.css")
     @RenderSection("styles", required: false)
     <script type="text/javascript">
         @* This is used to get the application's root path from javascript.
@@ -24,7 +26,7 @@
 <body class="login-page">
     <div class="login-box">
         <div class="logo">
-            <a href="javascript:void(0);">AbpProjectName</a>
+            <a href="javascript:void(0);">ProjectName</a>
         </div>
 
         @RenderBody()
@@ -55,6 +57,8 @@
 
     @Html.IncludeScript("~/metronic/assets/global/scripts/app.js")
     @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
+    @Html.IncludeScript("~/Common/Scripts/ModalManager.js")
+    @Html.IncludeScript("~/Common/Scripts/consts.js")
     <script type="text/javascript">
         App.setAssetsPath(abp.appPath + 'metronic/assets/');
     </script>

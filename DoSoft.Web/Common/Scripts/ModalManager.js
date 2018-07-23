@@ -113,7 +113,7 @@
                             return;
                         };
 
-                        if (options.scriptUrl && _.indexOf(_loadedScripts, options.scriptUrl) < 0) {
+                        if (options.scriptUrl && options.scriptUrl.indexOf(_loadedScripts, options.scriptUrl) < 0) {
                             $.getScript(options.scriptUrl)
                                 .done(function (script, textStatus) {
                                     _loadedScripts.push(options.scriptUrl);

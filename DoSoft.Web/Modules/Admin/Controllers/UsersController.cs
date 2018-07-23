@@ -15,5 +15,9 @@ namespace DoSoft.Admin.Controllers
             var model = new UserListModel();
             return View(model);
         }
+        public ActionResult CreateOrEditModal()
+        {
+            return View();
+        }
     }
 }

@@ -24,7 +24,7 @@
     @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.default.min.css", kendoVersion))
     @Html.IncludeStyle(string.Format("~/Modules/Admin/Content/kendo/{0}/kendo.common.min.css", kendoVersion))
     @Html.IncludeStyle("~/Modules/Admin/Content/styles.css")
-
+    @Html.IncludeStyle("~/Common/Styles/core.min.css")
     @Html.IncludeStyle(StylePaths.Roboto)
 
     @Html.IncludeStyle(StylePaths.JQuery_Uniform)
@@ -58,7 +58,6 @@
     @Html.IncludeScript("~/libs/jquery-ui/jquery-ui.min.js")
     @Html.IncludeScript(ScriptPaths.Json2)
 
-    @Html.IncludeScript(ScriptPaths.JQuery_Migrate)
     @Html.IncludeScript(ScriptPaths.JQuery_BlockUi)
     @Html.IncludeScript(ScriptPaths.JQuery_Uniform)
     @Html.IncludeScript(ScriptPaths.Toastr)
@@ -75,6 +74,8 @@
 
     @Html.IncludeScript("~/metronic/assets/global/scripts/app.js")
     @Html.IncludeScript("~/Common/Scripts/jquery-validation-custom.js")
+    @Html.IncludeScript("~/Common/Scripts/ModalManager.js")
+    @Html.IncludeScript("~/Common/Scripts/consts.js")
     <script src="~/api/EddoServiceProxies/GetAll"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
