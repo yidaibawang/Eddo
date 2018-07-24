@@ -16,19 +16,20 @@
                     type: "post",
                     url: "/api/services/app/userAppServicecs/getUsers",
                     dataType: "json",
-                    contentType: "application/json" },
-                    parameterMap: function (options, operation) {
+                    contentType: "application/json"
+                },
+                parameterMap: function (options, operation) {
                     if (operation == "read") {
                         var parameter = {
                             page: options.page,
                             pageSize: options.pageSize,
-                            SkipCount:0,
-                            Sorting:"Name"
+                            SkipCount: 0,
+                            Sorting: "Name"
                         };
                         return kendo.stringify(parameter);
                     }
                 }
-            },         
+            },
             batch: true,
             pageSize: 10,
             schema: {
@@ -43,8 +44,10 @@
             serverFiltering: true,
             serverSorting: true
         });
-
-        var usergrid=_$usersTable.kendoGrid({
+        function EditModal(id) {
+            _createOrEditModal.open({ id: id });
+        }
+        _$usersTable.kendoGrid({
             dataSource: dataSource,
             columns: [
                 {
@@ -53,25 +56,27 @@
                     width: 50,
                     headerAttributes: { style: "text-align:center" },
                     attributes: { style: "text-align:center" },
-                    template: '<a class="btn btn-default"  href="Edit/#=id#"><i class="fa fa-pencil"></i>编辑</a>'
+                
+                    template: '<a class="btn btn-default"  onclick="_createOrEditModal.open({ id: #=id# })"><i class="fa fa-pencil"></i>编辑</a>'
                 },
-                { field: "userName", title: "用户名",groupable: false },
-                { field: "name",title: "姓名" }, 
-                { field: "emailConfirm", title: "邮箱" },
+                { field: "userName", title: "用户名", groupable: false },
+                { field: "name", title: "姓名" },
+                { field: "emailAddress", title: "邮箱" },
                 { field: "lastLoginTime", title: "最后登录时间", format: "{0: yyyy-MM-dd HH:mm:ss}" },
-                { field: "creationTime", title: "创建时间", format: "{0: yyyy-MM-dd HH:mm:ss}"}
+                { field: "creationTime", title: "创建时间", format: "{0: yyyy-MM-dd HH:mm:ss}" }
 
             ],
+            selectable: "row",
             scrollable: false,
             pageable: {
                 refresh: true,
                 pageSizes: true
-          
+
             }
         });
 
         abp.event.on('app.createOrEditUserModalSaved', function () {
-            usergrid.refresh();
+            _$usersTable.data('kendoGrid').dataSource.page(1);
         });
         $("#Create").click(function () {
             _createOrEditModal.open();
