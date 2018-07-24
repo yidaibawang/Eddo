@@ -8,6 +8,8 @@ using System.Data.Entity;
 using System.Linq.Dynamic;
 using System.Threading.Tasks;
 using Eddo.AutoMapper;
+using DoSoft.Core.UserManagerment;
+using Microsoft.AspNet.Identity;
 
 namespace DoSoft.Application.Authorization
 {
@@ -57,10 +59,10 @@ namespace DoSoft.Application.Authorization
             if (!input.Id.HasValue)
             {
                 //Creating a new user
-                output= new GetUserForEditOutput
+                output = new GetUserForEditOutput
                 {
                     IsActive = true,
-                    ShouldChangePasswordOnNextLogin = true
+                    ShouldChangePasswordOnNextLogin = false
             
                 };
 
@@ -73,9 +75,36 @@ namespace DoSoft.Application.Authorization
                 output= user.MapTo<GetUserForEditOutput>();
           
             }
-
             return output;
 
         }
+        public async Task CreateOrUpdateUser(CreateOrUpdateUserInput input)
+        {
+            if (!input.User.Id.HasValue)
+            {
+               await  CreateUserAsync(input);
+            }
+        }
+        protected virtual async Task CreateUserAsync(CreateOrUpdateUserInput input)
+        {
+         
+            var user = input.User.MapTo<User>(); //Passwords is not mapped (see mapping configuration)
+
+            //Set password
+            if (!input.User.Password.IsNullOrEmpty())
+            {
+                CheckErrors(await UserManager.PasswordValidator.ValidateAsync(input.User.Password));
+            }
+            else
+            {
+                input.User.Password = User.DefaultPassword;
+            }
+
+            user.Password = new PasswordHasher().HashPassword(input.User.Password);
+            //Assign roles
+        
+            CheckErrors(await UserManager.CreateAsync(user));        
+        }
+
     }
 }

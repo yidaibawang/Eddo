@@ -1,6 +1,8 @@
 ﻿using DoSoft.Core.UserManagerment;
 using Eddo.Applications.Services;
 using Eddo.Runtime.Session;
+using Eddo.UI;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Threading.Tasks;
 
@@ -18,6 +20,15 @@ namespace DoSoft.Application
             }
 
             return user;
+        }
+        protected virtual void CheckErrors(IdentityResult identityResult)
+        {
+            if (identityResult.Succeeded)
+            {
+                return;
+            }
+            throw new UserFriendlyException(identityResult.Errors.ToString());
+
         }
     }
 }

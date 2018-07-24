@@ -32,13 +32,12 @@
         </div>
 
         <div class="form-group form-md-line-input form-md-floating-label">
-            <input type="text"  disabled="disabled" name="UserName" class="form-control@(Model.EmailAddress.IsNullOrEmpty() ? "" : " edited")" value="@Model.UserName" required maxlength="@DoSoft.Core.UserManagerment.User.MaxUserNameLength">
+            <input type="text"  name="UserName" class="form-control@(Model.EmailAddress.IsNullOrEmpty() ? "" : " edited")" value="@Model.UserName" required maxlength="@DoSoft.Core.UserManagerment.User.MaxUserNameLength">
             <label>用户名</label>
      
         </div>
 
    
-
         <div class="form-group form-md-line-input form-md-floating-label no-hint" style="@(Model.IsEditMode ? "display:block" : "display:none")">
             <input id="EditUser_Password" type="password" name="Password" class="form-control" maxlength="@DoSoft.Core.UserManagerment.User.MaxPlainPasswordLength" minlength="@DoSoft.Core.UserManagerment.User.MinPlainPasswordLength">
             <label>密码</label>

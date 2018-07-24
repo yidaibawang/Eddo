@@ -10,7 +10,6 @@
             scriptUrl: abp.appPath + 'Modules/Admin/Views/Users/_CreateOrEditModal.js',
             modalClass: 'CreateOrEditUserModal'
         });
-        
         var dataSource = new kendo.data.DataSource({
             transport: {
                 read: {
@@ -45,7 +44,7 @@
             serverSorting: true
         });
 
-        _$usersTable.kendoGrid({
+        var usergrid=_$usersTable.kendoGrid({
             dataSource: dataSource,
             columns: [
                 {
@@ -69,6 +68,10 @@
                 pageSizes: true
           
             }
+        });
+
+        abp.event.on('app.createOrEditUserModalSaved', function () {
+            usergrid.refresh();
         });
         $("#Create").click(function () {
             _createOrEditModal.open();

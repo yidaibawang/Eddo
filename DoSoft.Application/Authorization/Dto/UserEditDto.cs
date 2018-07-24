@@ -1,18 +1,14 @@
 ﻿using DoSoft.Core.UserManagerment;
+using Eddo.AutoMapper;
 using Eddo.Permissions.Authorization.Users;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DoSoft.Application.Authorization.Dto
 {
+    [AutoMapTo(typeof(User))]
     public class UserEditDto
     {
         /// <summary>
-        /// Set null to create a new user. Set user's Id to update a user
+        /// 如果为空创建新的用户
         /// </summary>
         public long? Id { get; set; }
 
