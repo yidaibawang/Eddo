@@ -44,9 +44,7 @@
             serverFiltering: true,
             serverSorting: true
         });
-        function EditModal(id) {
-            _createOrEditModal.open({ id: id });
-        }
+    
         _$usersTable.kendoGrid({
             dataSource: dataSource,
             columns: [
@@ -55,10 +53,11 @@
                     title: " ",
                     width: 50,
                     headerAttributes: { style: "text-align:center" },
-                    attributes: { style: "text-align:center" },
-                
-                    template: '<a class="btn btn-default"  onclick="_createOrEditModal.open({ id: #=id# })"><i class="fa fa-pencil"></i>编辑</a>'
+                    attributes: { style: "text-align:center" }
+
+                    //template: '<a class="btn btn-default"  onclick="_createOrEditModal.open({ id: #=id# })"><i class="fa fa-pencil"></i>编辑</a>'
                 },
+                { command: { text: "View Details", click: showDetails }, title: " ", width: "180px" },
                 { field: "userName", title: "用户名", groupable: false },
                 { field: "name", title: "姓名" },
                 { field: "emailAddress", title: "邮箱" },
@@ -74,7 +73,12 @@
 
             }
         });
+        function showDetails(e) {
+            e.preventDefault();
 
+            var dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+            _createOrEditModal.open({ id: dataItem.id })
+        }
         abp.event.on('app.createOrEditUserModalSaved', function () {
             _$usersTable.data('kendoGrid').dataSource.page(1);
         });
