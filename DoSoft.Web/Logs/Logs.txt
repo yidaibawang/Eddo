@@ -11996,3 +11996,1389 @@ DEBUG 2018-07-25 13:56:44,150 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     -
 DEBUG 2018-07-25 13:56:44,150 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
 DEBUG 2018-07-25 13:56:44,150 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
 DEBUG 2018-07-25 13:56:44,150 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 11:24:12,433 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 11:24:14,955 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 11:24:14,958 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,960 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,960 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,960 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,961 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,962 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,962 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,962 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,962 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,962 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:24:14,966 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 11:24:19,618 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 11:24:19,618 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 11:24:19,622 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 11:24:19,622 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 11:24:19,622 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 11:24:19,622 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 11:40:43,262 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 11:40:46,473 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 11:40:46,477 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,478 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,480 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:40:46,487 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 11:40:50,784 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 11:40:50,784 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 11:40:50,790 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 11:40:50,791 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 11:40:50,791 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 11:40:50,791 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 11:57:03,599 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 11:57:05,518 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 11:57:05,521 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,523 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,523 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,523 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,523 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,524 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,524 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,524 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,524 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,525 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 11:57:05,529 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 11:57:09,026 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 11:57:09,026 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 11:57:09,030 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 11:57:09,030 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 11:57:09,030 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 11:57:09,030 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 12:48:18,466 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 12:48:20,567 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 12:48:20,570 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,572 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,572 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,572 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,572 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,573 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,573 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,573 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,573 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,573 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,574 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,574 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,574 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,574 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,574 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 12:48:20,578 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 12:48:24,362 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 12:48:24,362 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 12:48:24,366 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 12:48:24,366 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 12:48:24,366 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 12:48:24,366 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 13:34:55,293 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 13:35:00,602 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 13:35:00,610 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,613 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,614 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,614 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,614 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,614 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,615 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,615 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,615 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,615 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,616 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,616 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,616 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,616 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,617 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:35:00,621 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 13:35:04,997 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 13:35:04,997 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 13:35:05,007 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 13:35:05,007 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 13:35:05,007 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 13:35:05,007 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-26 13:45:44,531 [12   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 13:45:44,531 [12   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+ERROR 2018-07-26 13:46:42,830 [20   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 13:46:42,831 [20   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+ERROR 2018-07-26 13:47:06,565 [30   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 13:47:06,565 [30   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+ERROR 2018-07-26 13:47:46,442 [25   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 13:47:46,442 [25   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+ERROR 2018-07-26 13:52:10,476 [36   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 13:52:10,476 [36   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+DEBUG 2018-07-26 13:59:43,498 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 13:59:48,824 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 13:59:48,829 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,831 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,832 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,832 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,832 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,832 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,833 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,833 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,834 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,834 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,834 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,835 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,835 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,835 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,836 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 13:59:48,841 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 13:59:52,521 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 13:59:52,521 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 13:59:52,525 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 13:59:52,525 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 13:59:52,525 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 13:59:52,526 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:01:48,012 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:01:50,648 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:01:50,654 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,657 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,657 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,658 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,658 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,658 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,659 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,660 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,661 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,662 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,662 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,663 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,664 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,664 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,665 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:01:50,681 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:01:56,128 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:01:56,128 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:01:56,132 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:01:56,132 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:01:56,132 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:01:56,132 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:08:25,497 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:08:30,767 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:08:30,771 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,773 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,774 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,774 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,774 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,775 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,775 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,776 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,776 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,777 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,777 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,777 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,777 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,778 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,778 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:08:30,783 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:08:34,681 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:08:34,681 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:08:34,686 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:08:34,686 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:08:34,686 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:08:34,686 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:31:16,483 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:31:18,430 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:31:18,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,437 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,438 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,438 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,438 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:31:18,442 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:31:21,801 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:31:21,801 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:31:21,805 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:31:21,805 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:31:21,805 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:31:21,805 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:33:45,892 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:33:48,294 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:33:48,298 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,300 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,301 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,301 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,301 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,301 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,302 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,302 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,302 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,302 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,303 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,303 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,303 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,303 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,304 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:33:48,309 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:33:52,930 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:33:52,930 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:33:52,934 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:33:52,934 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:33:52,934 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:33:52,934 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-26 14:35:27,186 [8    ] Mvc.Controllers.EddoHandleErrorAttribute - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> System.ArgumentNullException: 值不能为 null。
+参数名: unitOfWork
+   在 Eddo.EntityFramework.Uw.UnitOfWorkExtensions.GetDbContext[TDbContext](IUnitOfWork unitOfWork) 位置 D:\dev\Eddo\Eddo.EntityFramework\Uw\UnitOfWorkExtensions.cs:行号 18
+   在 Eddo.EntityFramework.Uw.UnitOfWorkDbContextProvider`1.get_DbContext() 位置 D:\dev\Eddo\Eddo.EntityFramework\Uw\UnitOfWorkDbContextProvider.cs:行号 19
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 13
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 18
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.FindAll() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 87
+   在 Eddo.Permissions.EddoModuleMangeBase`3.get_Modules() 位置 D:\dev\Eddo\Eddo.Permissions\EddoModuleMangeBase.cs:行号 33
+   在 DoSoft.Admin.Controllers.WidgetController.Men() 位置 D:\dev\Eddo\DoSoft.Web\Modules\Admin\Controllers\WidgetController.cs:行号 28
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClass3_0.<EndProcessRequest>b__0()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass5_0.<Wrap>b__0()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   在 ASP._Page_Modules_Admin_Views_Shared__Layout_cshtml.Execute() 位置 D:\dev\Eddo\Dosoft.Web\Modules\Admin\Views\Shared\_Layout.cshtml:行号 425
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 14:35:27,186 [6    ] Mvc.Controllers.EddoHandleErrorAttribute - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> System.ArgumentNullException: 值不能为 null。
+参数名: unitOfWork
+   在 Eddo.EntityFramework.Uw.UnitOfWorkExtensions.GetDbContext[TDbContext](IUnitOfWork unitOfWork) 位置 D:\dev\Eddo\Eddo.EntityFramework\Uw\UnitOfWorkExtensions.cs:行号 18
+   在 Eddo.EntityFramework.Uw.UnitOfWorkDbContextProvider`1.get_DbContext() 位置 D:\dev\Eddo\Eddo.EntityFramework\Uw\UnitOfWorkDbContextProvider.cs:行号 19
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 13
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 18
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.FindAll() 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 87
+   在 Eddo.Permissions.EddoModuleMangeBase`3.get_Modules() 位置 D:\dev\Eddo\Eddo.Permissions\EddoModuleMangeBase.cs:行号 33
+   在 DoSoft.Admin.Controllers.WidgetController.Men() 位置 D:\dev\Eddo\DoSoft.Web\Modules\Admin\Controllers\WidgetController.cs:行号 28
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClass3_0.<EndProcessRequest>b__0()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass5_0.<Wrap>b__0()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   在 ASP._Page_Modules_Admin_Views_Shared__Layout_cshtml.Execute() 位置 D:\dev\Eddo\Dosoft.Web\Modules\Admin\Views\Shared\_Layout.cshtml:行号 425
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-26 14:38:43,766 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:38:46,479 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:38:46,483 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,486 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,487 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,487 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,487 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,487 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,488 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,488 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,488 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,488 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,488 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,489 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,489 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,489 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,489 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:38:46,495 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:38:50,310 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:38:50,311 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:38:50,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:38:50,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:38:50,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:38:50,315 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:42:25,692 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:42:28,714 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:42:28,719 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,721 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,722 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,722 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,722 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,722 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,723 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,723 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,723 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,723 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,723 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,724 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,724 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,724 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,724 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:42:28,730 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:42:33,309 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:42:33,309 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:42:33,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:42:33,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:42:33,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:42:33,314 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:54:37,692 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:54:39,864 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:54:39,869 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,871 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,872 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,872 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,872 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,872 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,872 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,873 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,873 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,873 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,873 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,873 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,874 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,874 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,874 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:54:39,878 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:54:43,656 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:54:43,656 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:54:43,662 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:54:43,662 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:54:43,662 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:54:43,662 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 14:59:03,849 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 14:59:06,276 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 14:59:06,280 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,282 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,283 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,283 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,283 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,283 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,284 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,284 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,284 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,284 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,284 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,285 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,285 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,285 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,285 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 14:59:06,290 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 14:59:10,982 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 14:59:10,982 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 14:59:10,989 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 14:59:10,990 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 14:59:10,990 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 14:59:10,990 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 15:18:09,499 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 15:18:11,991 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 15:18:11,995 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,998 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,998 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,998 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,999 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,999 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,999 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:11,999 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,000 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,000 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,000 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,000 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,001 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,001 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,001 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:18:12,006 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 15:18:16,548 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 15:18:16,549 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 15:18:16,554 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 15:18:16,554 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 15:18:16,554 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 15:18:16,554 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 15:21:39,937 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 15:21:42,400 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 15:21:42,404 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,406 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,406 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,406 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,407 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,407 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,407 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,407 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,407 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,408 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,408 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,408 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,408 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,408 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,409 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:21:42,414 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 15:21:46,646 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 15:21:46,646 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 15:21:46,650 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 15:21:46,650 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 15:21:46,650 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 15:21:46,650 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-26 15:22:57,461 [11   ] ramework.EntityFramework.DoSoftDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-07-26 15:22:57,461 [11   ] ramework.EntityFramework.DoSoftDbContext -  - Password: Password 字段是必需的。
+DEBUG 2018-07-26 15:49:50,088 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 15:49:52,586 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 15:49:52,589 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,591 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,592 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,592 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,592 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,592 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,592 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,593 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,594 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,594 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:49:52,597 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 15:49:56,174 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 15:49:56,174 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 15:49:56,178 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 15:49:56,178 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 15:49:56,178 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 15:49:56,178 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-26 15:50:27,603 [7    ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 15:50:30,474 [6    ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-26 15:56:01,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 15:56:04,061 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 15:56:04,064 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,068 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,069 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,070 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,070 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 15:56:04,073 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 15:56:07,802 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 15:56:07,802 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 15:56:07,805 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 15:56:07,806 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 15:56:07,806 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 15:56:07,806 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+ERROR 2018-07-26 15:56:15,323 [8    ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 15:56:23,792 [12   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 15:57:13,042 [8    ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 15:58:13,800 [13   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:01:00,871 [13   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:01:24,880 [17   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:01:51,228 [21   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:02:13,455 [20   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:03:43,390 [13   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-26 16:08:58,181 [24   ] Mvc.Controllers.EddoHandleErrorAttribute - An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   在 System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   在 System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 49
+   在 Eddo.EntityFramework.Repositories.EfRepositoryBase`3.Update(TEntity entity) 位置 D:\dev\Eddo\Eddo.EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:行号 39
+   在 Eddo.Domain.Repository.EddoRepositoryBase`2.UpdateAsync(TEntity entity) 位置 D:\dev\Eddo\Eddo\Domain\Repository\EddoRepositoryBase.cs:行号 67
+   在 Eddo.Permissions.Authorization.Users.EddoUserStore`2.<UpdateAsync>d__13.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\Users\EddoUserStore.cs:行号 63
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<CreateLoginResultAsync>d__26.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 146
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsyncInternal>d__23.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 110
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Eddo.Permissions.Authorization.EddoLoginManager`2.<LoginAsync>d__22.MoveNext() 位置 D:\dev\Eddo\Eddo.Permissions\Authorization\EddoLoginManager.cs:行号 59
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<GetLoginResultAsync>d__9.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 DoSoft.Web.Controllers.AccountController.<Login>d__8.MoveNext() 位置 D:\dev\Eddo\DoSoft.Web\Controllers\AccountController.cs:行号 81
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-26 16:16:59,036 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 16:17:01,856 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 16:17:01,861 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,864 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,865 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,865 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,868 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,868 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,869 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,870 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,870 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,871 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 16:17:01,876 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 16:17:05,825 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 16:17:05,825 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 16:17:05,829 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 16:17:05,829 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 16:17:05,829 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 16:17:05,829 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 17:18:07,127 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 17:18:09,191 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 17:18:09,194 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,196 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,196 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,197 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,198 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:18:09,202 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 17:18:12,931 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 17:18:12,931 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 17:18:12,935 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 17:18:12,935 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 17:18:12,935 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 17:18:12,935 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 17:28:13,896 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 17:28:16,429 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 17:28:16,432 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,433 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,434 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,435 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,436 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:28:16,439 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 17:28:20,081 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 17:28:20,081 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 17:28:20,087 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 17:28:20,087 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 17:28:20,087 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 17:28:20,087 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 17:35:34,628 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 17:35:37,225 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 17:35:37,229 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,231 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,232 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,232 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,232 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,232 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,232 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,233 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,233 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,233 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,233 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:35:37,237 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 17:35:41,018 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 17:35:41,018 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 17:35:41,022 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 17:35:41,022 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 17:35:41,022 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 17:35:41,022 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 17:50:22,143 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 17:50:24,245 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 17:50:24,248 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,251 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,251 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,251 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,251 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,251 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,252 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,252 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,252 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,252 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,252 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,253 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,253 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,253 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,253 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:50:24,257 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 17:50:28,330 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 17:50:28,331 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 17:50:28,335 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 17:50:28,335 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 17:50:28,335 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 17:50:28,335 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-07-26 17:57:56,025 [1    ] Eddo.Modules.EddoModuleManager           - 加载 EddoModule...
+DEBUG 2018-07-26 17:57:58,519 [1    ] Eddo.Modules.EddoModuleManager           - 发现 15 EddoModule
+DEBUG 2018-07-26 17:57:58,524 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Admin.DoSoftAdminModule, DoSoft.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,527 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Application.DoSoftApplicationModule, DoSoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,528 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Core.DoSoftCoreModule, DoSoft.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,528 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.EntityFramework.DoSoftEntityFrameworkModule, DoSoft.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,528 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.Web.DoSoftWebModule, DoSoft.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,528 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: DoSoft.WebApi.DoSoftWebApiModule, DoSoft.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,529 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.AutoMapper.EddoAutoMapperModule, Eddo.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,529 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EddoKernelModule, Eddo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,529 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.EntityFramework.EddoEntityFrameworkModule, Eddo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,529 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EddoPermissionsModule, Eddo.Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,530 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Permissions.EntityFramework.EddoPermissionsEntityFrameworkModule, Eddo.Permissions.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,530 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.RedisCache.EddoRedisCacheModule, Eddo.RedisCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,530 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.WebApi.EddoWebApiModule, Eddo.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,530 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.EddoWebModule, Eddo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,531 [1    ] Eddo.Modules.EddoModuleManager           - 加载模块: Eddo.Web.Mvc.EddoWebMvcModule, Eddo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-26 17:57:58,536 [1    ] Eddo.Modules.EddoModuleManager           - 15 modules loaded.
+DEBUG 2018-07-26 17:58:03,028 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - Found 5 classes define auto mapping attributes
+DEBUG 2018-07-26 17:58:03,028 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Admin.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2018-07-26 17:58:03,032 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.GetUserForEditOutput
+DEBUG 2018-07-26 17:58:03,032 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserEditDto
+DEBUG 2018-07-26 17:58:03,032 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto
+DEBUG 2018-07-26 17:58:03,032 [1    ] Eddo.AutoMapper.EddoAutoMapperModule     - DoSoft.Application.Authorization.Dto.UserListDto+UserListRoleDto

@@ -31,7 +31,7 @@
                 }
             },
             batch: true,
-            pageSize: 10,
+            pageSize: app.consts.grid.defaultPageSize,
             schema: {
                 data: function (d) {
                     return d.result.items;
@@ -52,12 +52,13 @@
                     field: "id",
                     title: " ",
                     width: 50,
+                    hidden: true,
                     headerAttributes: { style: "text-align:center" },
                     attributes: { style: "text-align:center" }
 
                     //template: '<a class="btn btn-default"  onclick="_createOrEditModal.open({ id: #=id# })"><i class="fa fa-pencil"></i>编辑</a>'
                 },
-                { command: { text: "View Details", click: showDetails }, title: " ", width: "180px" },
+                { command: { text: "编辑", click: showDetails }, title: " ", width: "90px" },
                 { field: "userName", title: "用户名", groupable: false },
                 { field: "name", title: "姓名" },
                 { field: "emailAddress", title: "邮箱" },
@@ -69,7 +70,7 @@
             scrollable: false,
             pageable: {
                 refresh: true,
-                pageSizes: true
+                pageSizes: false
 
             }
         });

@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 using Eddo.AutoMapper;
 using DoSoft.Core.UserManagerment;
 using Microsoft.AspNet.Identity;
+using System.Diagnostics;
+using Eddo.UI;
+using Eddo.Runtime.Session;
 
 namespace DoSoft.Application.Authorization
 {
@@ -82,13 +85,54 @@ namespace DoSoft.Application.Authorization
         {
             if (!input.User.Id.HasValue)
             {
-               await  CreateUserAsync(input);
+                await CreateUserAsync(input);
             }
+            else
+            {
+                await UpdateUserAsync(input);
+            }
+        }
+        public async Task DeleteUser(EntityDto<long> input)
+        {
+            if (input.Id == EddoSession.GetUserId())
+            {
+                throw new UserFriendlyException("不能删除登录用户！");
+            }
+
+            var user = await UserManager.GetUserByIdAsync(input.Id);
+            CheckErrors(await UserManager.DeleteAsync(user));
+        }
+        protected virtual async Task UpdateUserAsync(CreateOrUpdateUserInput input)
+        {    
+            Debug.Assert(input.User.Id != null, "input.User.Id should be set.");
+
+            using (var unitwork = UnitOfWorkManager.Begin())
+            {
+                var user = await UserManager.FindByIdAsync(input.User.Id.Value);
+
+                //Update user properties
+                input.User.MapTo(user); //不进行密码映射
+
+                if (input.SetRandomPassword)
+                {
+                    input.User.Password = User.CreateRandomPassword();
+                }
+
+                if (!input.User.Password.IsNullOrEmpty())
+                {
+                    CheckErrors(await UserManager.ChangePasswordAsync(user, input.User.Password));
+                }
+
+                CheckErrors(await UserManager.UpdateAsync(user));
+                unitwork.Commit();
+            }
+
+         
         }
         protected virtual async Task CreateUserAsync(CreateOrUpdateUserInput input)
         {
          
-            var user = input.User.MapTo<User>(); //Passwords is not mapped (see mapping configuration)
+            var user = input.User.MapTo<User>(); //不进行密码映射
 
             //Set password
             if (!input.User.Password.IsNullOrEmpty())

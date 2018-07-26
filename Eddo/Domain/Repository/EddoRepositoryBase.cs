@@ -177,9 +177,9 @@ namespace Eddo.Domain.Repository
             return FindAll().Any(predicate);
         }
 
-        public TEntity Find(object id)
+        public TEntity Find(TKey id)
         {
-            return Find(t => t.Id.Equals(id)).FirstOrDefault();
+            return FindAll().Single(t => t.Id.Equals(id));
         }
 
         public IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
@@ -188,7 +188,7 @@ namespace Eddo.Domain.Repository
             {
                 return FindAll();
             }
-            return FindAll().Where(predicate);
+            return FindAll().Where<TEntity>(predicate);
         }
 
         public IQueryable<TEntity> Find(ICriteria<TEntity> criteria)
@@ -197,11 +197,12 @@ namespace Eddo.Domain.Repository
             {
                 return FindAll();
             }
-            return FindAll().Where(criteria.getpredicate());
+            return FindAll().Where<TEntity>(criteria.getpredicate());
         }
-        public async Task<TEntity> FindAsync(object id)
+    
+        public virtual Task<TEntity> FindAsync(TKey id)
         {
-            return Find(id);
+            return Task.FromResult(FirstOrDefault(t => t.Id.Equals(id)));
         }
 
         public List<TEntity> FindByIds(string ids)
@@ -308,7 +309,7 @@ namespace Eddo.Domain.Repository
         }
 
         public virtual TEntity FirstOrDefault(Expression<Func<TEntity, bool>> predicate)
-        {
+        {   
             return FindAll().FirstOrDefault(predicate);
         }
 

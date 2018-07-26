@@ -423,7 +423,7 @@ namespace Eddo.Permissions.Authorization.Users
         /// <returns></returns>
         public virtual async Task<string> GetUserNameFromDatabaseAsync(long userId)
         {
-                var user = await _userRepository.FindAsync(userId);
+                var user = await _userRepository.FirstOrDefaultAsync(u=> u.Id==userId);
     
                 return user.UserName;
             

@@ -11,6 +11,11 @@ namespace DoSoft.Application
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            //添加自定义映射
+            Configuration.Modules.EddoAutoMapper().Configurators.Add(mapper =>
+            {
+                CustomDtoMapper.CreateMappings(mapper);
+            });
         }
         public override void PreInitialize()
         {

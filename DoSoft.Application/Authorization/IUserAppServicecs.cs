@@ -14,5 +14,6 @@ namespace DoSoft.Application.Authorization
         Task<PagedResultDto<UserListDto>> GetUsers(GetUsersInput input);
         Task<GetUserForEditOutput> GetUserForEdit(NullableIdDto<long> input);
         Task CreateOrUpdateUser(CreateOrUpdateUserInput input);
+        Task DeleteUser(EntityDto<long> input);
     }
 }

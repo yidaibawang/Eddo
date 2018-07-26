@@ -31,12 +31,12 @@ namespace Eddo.Domain.Repository
         /// 查找实体
         /// </summary>
         /// <param name="id">实体标识</param>
-        TEntity Find(object id);
+        TEntity Find(TKey id);
         /// <summary>
         /// 查找实体
         /// </summary>
         /// <param name="id">实体标识</param>
-        Task<TEntity> FindAsync(object id);
+        Task<TEntity> FindAsync(TKey id);
         /// <summary>
         /// 查找实体集合
         /// </summary>

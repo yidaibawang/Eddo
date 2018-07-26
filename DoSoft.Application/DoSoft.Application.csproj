@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -57,6 +60,7 @@
     <Compile Include="Authorization\Dto\UserListDto.cs" />
     <Compile Include="Authorization\IUserAppServicecs.cs" />
     <Compile Include="Authorization\UserAppServicecs.cs" />
+    <Compile Include="CustomDtoMapper.cs" />
     <Compile Include="DoSoftApplicationModule.cs" />
     <Compile Include="DosoftAppServiceBase.cs" />
     <Compile Include="Dto\PagedAndSortedInputDto.cs" />

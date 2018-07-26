@@ -548,13 +548,13 @@ td.k-state-focused.k-state-selected {
     border-right: 1px solid #e3e3e3;
 }
 .k-grid table tr.k-alt td {
-    background-color: #fbfbfb;
+    /*background-color: #fbfbfb;*/
 }
 .k-grid table tr:first-child > td {
     border-top: none;
 }
 .k-grid table tr:hover > td {
-    background: #f4f4f4;
+    background: #cbe4f3;
 }
 .k-grid.k-widget .k-pager-wrap {
     border: none;

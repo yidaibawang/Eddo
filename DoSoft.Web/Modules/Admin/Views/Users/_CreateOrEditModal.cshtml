@@ -4,7 +4,7 @@
 @{
     ViewBag.Title = "CreateOrEditModal";
 }
-@Html.Partial("~/Modules/Admin/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel("新建用户"))
+@Html.Partial("~/Modules/Admin/Views/Common/Modals/_ModalHeader.cshtml",  new ModalHeaderViewModel(Model.IsEditMode?"编辑用户:"+ Model.UserName: "新建用户"))
 
 <div class="modal-body">
 

@@ -6,6 +6,7 @@ using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Collections.Immutable;
 using Eddo.MultiTenancy;
+using System.Runtime.Remoting.Messaging;
 
 namespace Eddo.EntityFramework.Uw
 {
@@ -109,6 +110,7 @@ namespace Eddo.EntityFramework.Uw
             var dbContextKey = concreteDbContextType.FullName + "#" + connectionString;
 
             DbContext dbContext;
+            
             if (!_activeDbContexts.TryGetValue(typeof(TDbContext), out dbContext))
             {    
 
@@ -119,7 +121,12 @@ namespace Eddo.EntityFramework.Uw
                 }
                 else
                 {
-                    dbContext = Resolve<TDbContext>();
+                    dbContext=CallContext.GetData("DbContext") as DbContext;
+                    if (dbContext == null)
+                    {
+                        dbContext = Resolve<TDbContext>();
+                        CallContext.SetData("DbContext", dbContext);
+                    }
                 }
 
                 _activeDbContexts[typeof(TDbContext)] = dbContext;
