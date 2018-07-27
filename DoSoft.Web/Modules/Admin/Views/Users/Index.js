@@ -107,5 +107,16 @@
         $("#Create").click(function () {
             _createOrEditModal.open();
         })
+        $('#ShowAdvancedFiltersSpan').click(function () {
+            $('#ShowAdvancedFiltersSpan').hide();
+            $('#HideAdvancedFiltersSpan').show();
+            $('#AdvacedAuditFiltersArea').slideDown();
+        });
+
+        $('#HideAdvancedFiltersSpan').click(function () {
+            $('#HideAdvancedFiltersSpan').hide();
+            $('#ShowAdvancedFiltersSpan').show();
+            $('#AdvacedAuditFiltersArea').slideUp();
+        });
     })
 })();

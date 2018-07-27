@@ -63,30 +63,58 @@
 </div>
 
 <div class="content">
-    <div class="form-horizontal">
         <div class="panel-group">
             <div class="panel panel-default panel-search">
                 <div class="panel-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="inputs inputs-full-width">
-                                <div class="portlet-input">
-                                    <form>
+                    <div class="form">
+                        <div class="form-body">
+                            <div class="row margin-bottom-10">
+                                <div class="col-md-12">
+                                    <div class="inputs inputs-full-width">
+                                        <div class="portlet-input">
+                                            <form>
 
-                                        <div class="input-group">
-                                            <input id="UsersTableFilter" name="UsersTableFilter" class="form-control" placeholder="查询" type="text" value="@Model.UserName">
-                                            <span class="input-group-btn">
-                                                <button id="GetUsersButton" class="btn default" type="submit"><i class="icon-magnifier"></i></button>
-                                            </span>
+                                                <div class="input-group">
+                                                    <input id="UsersTableFilter" name="UsersTableFilter" class="form-control" placeholder="查询" type="text" value="@Model.UserName">
+                                                    <span class="input-group-btn">
+                                                        <button id="GetUsersButton" class="btn default" type="submit"><i class="icon-magnifier"></i></button>
+                                                    </span>
+                                                </div>
+                                            </form>
                                         </div>
-                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="AdvacedAuditFiltersArea" style="display: none">
+                                    <div class="row margin-bottom-10">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input  class="  form-control" name="org" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="  form-control" name="roles" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row margin-bottom-10">
+                                <div class="col-sm-6 text-left">
+                                    <span id="ShowAdvancedFiltersSpan" class="clickable-item text-muted"><i class="fa fa-angle-down"></i> ShowAdvancedFilters</span>
+                                    <span id="HideAdvancedFiltersSpan" class="clickable-item text-muted" style="display: none"><i class="fa fa-angle-up"></i> HideAdvancedFilters</span>
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    <button id="RefreshUserListButton" class="btn blue"><i class="fa fa-refresh"></i>刷新</button>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
-
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div id="users-grid"></div>
@@ -95,5 +123,5 @@
             </div>
         </div>
     </div>
-</div>
+
 
