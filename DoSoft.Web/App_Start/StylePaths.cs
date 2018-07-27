@@ -23,7 +23,6 @@ namespace DoSoft.Web
         public const string Bootstrap_Switch = "~/libs/bootstrap-switch/css/bootstrap-switch.min.css";
         public const string JQuery_jTable_Theme = "~/libs/jquery-jtable/themes/metro/blue/jtable.min.css";
         public const string JQuery_Jcrop = "~/libs/jcrop/css/jquery.Jcrop.min.css";
-        public const string Sweetalert = "~/libs/sweetalert/sweet-alert.css";
         public const string style = "~/css/style.css";
         public const string materialize = "~/css/materialize.css";    
         public const string themes = "~/themes/all-themes.css";

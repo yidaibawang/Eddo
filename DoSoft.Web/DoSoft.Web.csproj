@@ -2452,11 +2452,6 @@
     <Content Include="libs\spinjs\jquery.spin.js" />
     <Content Include="libs\spinjs\spin.js" />
     <Content Include="libs\sweetalert\dist\sweetalert.min.js" />
-    <Content Include="libs\sweetalert\ie9.css" />
-    <Content Include="libs\sweetalert\sweet-alert.css" />
-    <Content Include="libs\sweetalert\sweet-alert.html" />
-    <Content Include="libs\sweetalert\sweet-alert.js" />
-    <Content Include="libs\sweetalert\sweet-alert.min.js" />
     <Content Include="libs\tether\css\tether-theme-arrows-dark.css" />
     <Content Include="libs\tether\css\tether-theme-arrows-dark.min.css" />
     <Content Include="libs\tether\css\tether-theme-arrows.css" />
@@ -3053,7 +3048,6 @@
     <Content Include="libs\nprogress\License.md" />
     <Content Include="libs\nprogress\Notes.md" />
     <Content Include="libs\nprogress\Readme.md" />
-    <Content Include="libs\sweetalert\sweet-alert.scss" />
     <Content Include="libs\toastr2.1.1\toastr.js.map" />
     <Content Include="log4net.config" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
@@ -3165,9 +3159,6 @@
     <Content Include="libs\slider-revolution-slider\rs-plugin\font\revicons.eot" />
     <Content Include="libs\slider-revolution-slider\rs-plugin\font\revicons.ttf" />
     <Content Include="libs\slider-revolution-slider\rs-plugin\font\revicons.woff" />
-    <Content Include="libs\sweetalert\LICENSE.md" />
-    <Content Include="libs\sweetalert\package.json" />
-    <Content Include="libs\sweetalert\README.md" />
     <Content Include="libs\toastr\toastr.js.map" />
     <Content Include="libs\toastr\toastr.less" />
     <Content Include="libs\toastr\toastr.scss" />
@@ -3290,6 +3281,9 @@
     <Content Include="libs\jquery-sparkline\Makefile" />
     <Content Include="libs\jquery-sparkline\README.md" />
     <Content Include="libs\jquery-sparkline\sparkline.jquery.json" />
+    <Content Include="libs\sweetalert\LICENSE.md" />
+    <Content Include="libs\sweetalert\package.json" />
+    <Content Include="libs\sweetalert\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

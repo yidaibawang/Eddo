@@ -35,7 +35,7 @@ namespace DoSoft.Web
         public const string SpinJs = "~/libs/spinjs/spin.js";
         public const string SpinJs_JQuery = "~/libs/spinjs/jquery.spin.js";
 
-        public const string SweetAlert = "~/libs/sweetalert/sweet-alert.min.js";
+        public const string SweetAlert = "~/libs/sweetalert/dist/sweetalert.min.js";
         public const string Toastr = "~/libs/toastr/toastr.min.js";
 
         public const string MomentJs = "~/Scripts/moment-with-locales.min.js";

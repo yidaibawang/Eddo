@@ -58,7 +58,7 @@
 
                     //template: '<a class="btn btn-default"  onclick="_createOrEditModal.open({ id: #=id# })"><i class="fa fa-pencil"></i>编辑</a>'
                 },
-                { command: { text: "编辑", click: showDetails }, title: " ", width: "90px" },
+                { command: [{ text: "编辑", click: showDetails }, { text: "删除", click: deleteUser }], title: " ", width: "150px" },
                 { field: "userName", title: "用户名", groupable: false },
                 { field: "name", title: "姓名" },
                 { field: "emailAddress", title: "邮箱" },
@@ -83,6 +83,27 @@
         abp.event.on('app.createOrEditUserModalSaved', function () {
             _$usersTable.data('kendoGrid').dataSource.page(1);
         });
+        function deleteUser(e) {
+            e.preventDefault();
+            var user = this.dataItem($(e.currentTarget).closest("tr"));
+            if (user.userName == app.consts.userManagement.defaultAdminUserName) {
+                abp.message.warn(app.consts.userManagement.defaultAdminUserName+"用户不能删除","错误");
+                return;
+            }
+            abp.message.confirm(
+                "确认删除" + user.userName,
+                function (isConfirmed) {
+                    if (isConfirmed) {
+                        _userService.deleteUser({
+                            id: user.id
+                        }).done(function () {
+                            _$usersTable.data('kendoGrid').dataSource.page(1);
+                            abp.notify.success("删除成功");
+                        });
+                    }
+                }
+            );
+        }
         $("#Create").click(function () {
             _createOrEditModal.open();
         })

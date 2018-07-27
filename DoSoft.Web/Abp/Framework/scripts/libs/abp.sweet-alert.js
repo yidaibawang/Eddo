@@ -26,8 +26,8 @@
             },
             confirm: {
                 icon: 'warning',
-                title: 'Are you sure?',
-                buttons: ['Cancel', 'Yes']
+                title: '是否执行?',
+                buttons: ['取消','确认']
             }
         }
     };
@@ -42,18 +42,19 @@
 
         var opts = $.extend(
             {},
-            abp.libs.sweetAlert.config['default'],
+            abp.libs.sweetAlert.config.default,
             abp.libs.sweetAlert.config[type],
-            {    
+            {
                 title: title,
-                text: message,
-                type:type
+                text: message
             }
         );
 
         return $.Deferred(function ($dfd) {
-            sweetAlert(opts);
-            $dfd.resolve();
+            sweetAlert(opts).then(function () {
+                $dfd.resolve();
+            });
+        
            
         });
     };
